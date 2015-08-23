@@ -51,7 +51,7 @@
 {
     [super viewDidAppear:animated];
     
-    
+    [tfEmailOrPhone becomeFirstResponder];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -68,17 +68,36 @@
     
 }
 
-- (void)dealloc
-{
-    
-}
+//- (void)dealloc
+//{
+//    
+//}
 
 #pragma mark - IBAction
 - (IBAction)clickBtnContinue:(id)sender
 {
     TDLOG(@"");
     
+    if ( [self validForm] )
+    {
+        // TODO: process forgot password
+    }
+}
+
+#pragma mark -
+- (BOOL)validForm
+{
+    NSString *emailOrPhone = [tfEmailOrPhone.text td_removeWhitespace];
+    if ( [emailOrPhone td_isEmpty] )
+    {
+        [UIAlertView showAlertViewWithMessage:@"Email / Phone is require" cancelButtonTitle:@"Ok" tapBlock:nil];
+        
+        [tfEmailOrPhone becomeFirstResponder];
+        
+        return NO;
+    }
     
+    return YES;
 }
 
 @end

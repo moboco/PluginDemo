@@ -63,7 +63,7 @@
 {
     [super viewDidAppear:animated];
     
-    
+    [tfEmail becomeFirstResponder];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -80,10 +80,10 @@
     
 }
 
-- (void)dealloc
-{
-    
-}
+//- (void)dealloc
+//{
+//    
+//}
 
 #pragma mark - IBAction
 - (IBAction)clickBtnChooseAvatar:(id)sender
@@ -97,7 +97,56 @@
 {
     TDLOG(@"");
     
+    if ( [self validForm] )
+    {
+        // TODO: register
+    }
+}
+
+#pragma mark -
+- (BOOL)validForm
+{
+    NSString *email = [tfEmail.text td_removeWhitespace];
+    if ( [email td_isEmpty] )
+    {
+        [UIAlertView showAlertViewWithMessage:@"Email is require" cancelButtonTitle:@"Ok" tapBlock:nil];
+        
+        [tfEmail becomeFirstResponder];
+        
+        return NO;
+    }
     
+    NSString *account = [tfAccount.text td_removeWhitespace];
+    if ( [account td_isEmpty] )
+    {
+        [UIAlertView showAlertViewWithMessage:@"Account is require" cancelButtonTitle:@"Ok" tapBlock:nil];
+        
+        [tfAccount becomeFirstResponder];
+        
+        return NO;
+    }
+    
+    NSString *password = [tfPassword.text td_removeWhitespace];
+    if ( [password td_isEmpty] )
+    {
+        [UIAlertView showAlertViewWithMessage:@"Password is require" cancelButtonTitle:@"Ok" tapBlock:nil];
+        
+        [tfPassword becomeFirstResponder];
+        
+        return NO;
+    }
+    
+    NSString *confirmPassword = [tfConfirmPassword.text td_removeWhitespace];
+    if ( ![confirmPassword td_isEqualString:password] )
+    {
+        [UIAlertView showAlertViewWithMessage:@"Confirm password isn't correct" cancelButtonTitle:@"Ok" tapBlock:nil];
+        
+        [tfConfirmPassword becomeFirstResponder];
+        
+        return NO;
+    }
+    
+    return YES;
 }
 
 @end
