@@ -7,535 +7,517 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04349FA4D508FC10664FBD27 /* UIViewController+TDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E777B3B5FA3BD15B86B974F9 /* UIViewController+TDLog.m */; };
-		057C6B767719ACB6CA69D369 /* TDTableDataSourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BA4319604A23EB5BFBC17 /* TDTableDataSourceDelegate.m */; };
-		06B97D45C4CD1C3E2DEF1FB8 /* TDBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF0D6BC9C40B32249A9496F /* TDBaseObject.h */; };
-		0994A89D649D8020AD8D9054 /* NSDate+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6532D28B83F811E077F6BB37 /* NSDate+TDCore.m */; };
-		0A25BCD1F9B441E9125827AB /* NSDate+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C27B2C71B2880CCBADA2568 /* NSDate+TDCore.h */; };
-		0B1FC4AC7A392E9C400E34F4 /* TDThemeManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = B12904D337B7112BC51F743B /* TDThemeManagement.h */; };
-		0C7E978DCA6B1A4444BCF8F8 /* DragTableDragState_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCFA205A4747E1F96CF7F59 /* DragTableDragState_ot.h */; };
-		1016D198C36DA21B81DC8630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC9AAA3AC90A18DB4916EC2 /* Foundation.framework */; };
-		145C41094A75677FD46C1963 /* UIView+TDEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 179725FC3A060FC18F3B60CB /* UIView+TDEvent.h */; };
-		160E44B4F5D68E96E52F2121 /* UIViewController+Popup.h in Headers */ = {isa = PBXBuildFile; fileRef = C90CB8B2DAA0C9317908D441 /* UIViewController+Popup.h */; };
-		190883DF0B092B604A496A66 /* DragTableGestureObserver_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = 81949D0C229554D67F966C25 /* DragTableGestureObserver_ot.m */; };
-		1C3C650122E36DB99196A5E1 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4225192CCED4943F28CF5272 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */; };
-		1DEE5DF17A51FE3C4D03DE0E /* TDMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F8B0510EC1E907CB6F5EC /* TDMultiDelegate.m */; };
-		1ED5D0DED32AAA0D270629A5 /* NSDictionary+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9523A1680B396BCDB54A159F /* NSDictionary+TDCore.h */; };
-		20EF24D45D013C5D08C8EF95 /* DragTableHeaderView_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9CB709C3808E6DC078BF8 /* DragTableHeaderView_ot.m */; };
-		24567AE814DCFF6FDA2A2ED2 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B663C1AEADAA1736C9368E3A /* UIAlertView+Block.m */; };
-		2C9EA11F5D7B720D8494B741 /* TDTableDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 36ED12DDD16E8139639E1FE5 /* TDTableDataSourceDelegate.h */; };
-		2CD653DEAE3B083810AD1037 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 998BA3F5DD0FEFDF7C885BA2 /* blueArrow@2x.png */; };
-		30E71DFF8042115AD14D14AF /* TDAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BC4269A414DB4288893EED /* TDAlert.m */; };
-		38A8C8923999E8290B0724BA /* UIScrollView+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E429027818DA23EB62656E /* UIScrollView+TDCore.m */; };
-		3B25F5483FC54A3E56228C38 /* UIAlertView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D48D3098FC9130CF04CB6 /* UIAlertView+Block.h */; };
-		3CE2B08FE20F659A5EB261B0 /* UIScrollView+DragTableSafeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE56695D9F7C7C38D794A40 /* UIScrollView+DragTableSafeAnimation.h */; };
-		42B3B15B1539A622C8265F94 /* TDBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96267D8A34659A40D93E16EB /* TDBaseViewController.h */; };
-		4379F868D57911900AFE9223 /* TDPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C5B8449061E38EFA01A9C /* TDPlist.m */; };
-		497274D9FC19CAECF4E7EAB6 /* UIButton+TDEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E479D8DB387909DA072627 /* UIButton+TDEvent.h */; };
-		49EF9F89D5829277A6647CEE /* NSObject+File.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F72CCDC282F2DA0B3DE0B9 /* NSObject+File.h */; };
-		4EEE3BB0A9A4BC2976FAF882 /* TDThemeManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D9E13DBE8B1B1FE8CE807D /* TDThemeManagement.m */; };
-		4F2836CFB84EB5389BD1BFAD /* DragTableGestureObserver_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EF61276A064CAD4D21180F /* DragTableGestureObserver_ot.h */; };
-		4F40B921489482758A1E89CF /* TDBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AFE647109FEC00F968152 /* TDBaseObject.m */; };
-		4FDB2636635BC67103E01EAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC37D597AB64CE27223CEE /* UIKit.framework */; };
-		5481A59EAB9CB176CC92F968 /* NSObject+TDDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EF676C254D05F44B52F7BF /* NSObject+TDDocument.h */; };
-		55AEB85EEC9CD4C00C78BFBB /* Pods-MotelShare-TDCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917C40415EB200310E2E806B /* Pods-MotelShare-TDCore-dummy.m */; };
-		55C1C7446C28007D8CD62AFF /* UIView+TDRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDB185E4DDB3570F206F615 /* UIView+TDRecognizer.h */; };
-		5C90720A54E7F57F32B9A7F6 /* UIColor+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8C8DDC37D4C2BF5D22FF16 /* UIColor+TDCore.h */; };
-		5D1276C5F45BB4D4A6D0BA03 /* loading-icon-rotating@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5336914BB365703830C87877 /* loading-icon-rotating@2x.png */; };
-		5D8E31FDF5BD552A7DA5087D /* NSString+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4262491FCF246468E780E826 /* NSString+TDCore.h */; };
-		5D94DBD769A3482353247F90 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9195F89FB2A26E384C9FF33C /* blueArrow.png */; };
-		5E470A3842490FBE6625299A /* TDAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 68736E6DD75BB4EE424F2420 /* TDAlert.h */; };
-		601F1AAA45DFB483EC3A4DD2 /* UIScrollView+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7C68CEA5776B06C949FBE8 /* UIScrollView+TDCore.h */; };
-		64C693BF2A5190691086F796 /* UIViewController+Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 502FF4B36631DB11AF30A686 /* UIViewController+Popup.m */; };
-		6C341161928A9D283B1A7901 /* UITableView+DragLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6F237594B983892E218106 /* UITableView+DragLoad.h */; };
-		6DBC5EFAE430B8F1AF2BB57A /* TDEngineLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EF34067F17FAC90BF57292 /* TDEngineLog.h */; };
-		6F2043FD03BEE5A922CE7A49 /* UIRefreshControl+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C51FC35D268A0E704FE15AA /* UIRefreshControl+UITableView.m */; };
-		75231EC65E541F53CE2B7110 /* UIResponder+TDPush.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC7FB668C60C6B673256F80 /* UIResponder+TDPush.h */; };
-		788582F0B1511ED64819685A /* Pods-MotelShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE948A86A0DBD491E68432F0 /* Pods-MotelShare-dummy.m */; };
-		80B1C888275BEA836ACEA7EA /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A1FC2BCC243627F9CF7AC /* UIColor+HexColor.m */; };
-		8465FE093353594F575A81E9 /* NSString+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 332026CE86F31D9F86427448 /* NSString+TDCore.m */; };
-		862BEDA4AE8962AA3AECA13B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6359EEB9EBD1695EC75DEA4 /* QuartzCore.framework */; };
-		87AA6CC5A9D1FCDD23F8662D /* TDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8787EF7F61198F974325F7E9 /* TDLog.h */; };
-		8A82EA01B8E1A4E438298B66 /* UIView+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB38DA80CF945470B0CD7F /* UIView+TDCore.m */; };
-		90DF7FE7C5BE294C10AA558E /* NSObject+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F505364DE61C8412342C8F2 /* NSObject+File.m */; };
-		934BC4C1552702B27EA034C4 /* UIButton+TDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8525B5153B3E008F6AB6CDEE /* UIButton+TDEvent.m */; };
-		9643A73B947999E27E56A026 /* DragTableFooterView_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C935DA551EC37F537583AE1 /* DragTableFooterView_ot.h */; };
-		9DFEA94AD704B17A2D24E451 /* UIScrollView+DragTableSafeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FE7541813123BB1B598B9 /* UIScrollView+DragTableSafeAnimation.m */; };
-		A1FB25AAF69E4563A0A0E8C1 /* TDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AE7334706ED61576C4678D /* TDBaseViewController.m */; };
-		A4EACACE2A84B1610B6399C0 /* UIRefreshControl+UITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B23F097CE860A95EAB6E01 /* UIRefreshControl+UITableView.h */; };
-		A5005B6308C5D62A06862980 /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E007910E0210B8D5AB84DED /* UIColor+HexColor.h */; };
-		A5030442D740E36BC65D15ED /* NSArray+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B24D7E86056847301525B2 /* NSArray+TDCore.h */; };
-		A65417E35CCC8100E9A7639D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1ED7656FE6F310982532080 /* CoreFoundation.framework */; };
-		A86D1AEF0D3272FECEA13E3C /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EACB168CDAEEF1F3C8989FEC /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */; };
-		AAEB5E166FB0DE22CBC2F6F3 /* NSObject+TDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = DB613E9E9A141C72EC2BEF5E /* NSObject+TDDocument.m */; };
-		AF373FF0AEFC7CB793819293 /* NSArray+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CA78434710226FC11F6C04 /* NSArray+TDCore.m */; };
-		B43F7A40362DF11595DCF0F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DFC17AF4444FBCBA9802B2 /* CoreGraphics.framework */; };
-		B4AEF4E2AB28174B24906AD1 /* NSDictionary+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = D202ABC20A8289C80D88C2CC /* NSDictionary+TDCore.m */; };
-		B6BCC4D5B9FBD9B73C2BC20D /* UIView+TDRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C53B044DD6D1FBD4580EDBC1 /* UIView+TDRecognizer.m */; };
-		B9589CA7A8B7C0BA82346D8A /* TDMultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CCB6D65AAC1C6AFC672163 /* TDMultiDelegate.h */; };
-		BA367CC19BB13AC1A709C179 /* DragTableHeaderView_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D11887B2DC52F2FE90C1D7 /* DragTableHeaderView_ot.h */; };
-		C97E8709F1DC98A88400C4CC /* TDPlist.h in Headers */ = {isa = PBXBuildFile; fileRef = F1CB43009EFCDCC08F9B0F4B /* TDPlist.h */; };
-		CBEB16D2ABE3621330D8D5B0 /* UIView+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C461714758092ADE1AEC92 /* UIView+TDCore.h */; };
-		CCEDEE51EF20FC0500F2CA28 /* loading-icon-static@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED60842FF8075AAE26989B9 /* loading-icon-static@2x.png */; };
-		D5BE2D62F355F7F19A6DD8B3 /* UIResponder+TDPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D59B720C941CA381D93F6B /* UIResponder+TDPush.m */; };
-		D9E0E3435EFF8EA53E1A3ED5 /* TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE65E29CA8CCF9B91188A5F /* TDCore.h */; };
-		DA135F95D24F546E250A6DB3 /* UIViewController+TDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 524FAFE7122847FB86674EA7 /* UIViewController+TDLog.h */; };
-		E1481FFE32022CDCFA73003B /* DragTableFooterView_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4E887561F9F17AD001BB3 /* DragTableFooterView_ot.m */; };
-		EA49C91DEFD14619B1661E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC9AAA3AC90A18DB4916EC2 /* Foundation.framework */; };
-		F49BE7F61DB766506D1B547F /* UITableView+DragLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB5C03D76C693A618CD229 /* UITableView+DragLoad.m */; };
-		FD4EEC0FE6C64E900AC1B756 /* UIView+TDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8DA9580E9BB22FE793FB5A /* UIView+TDEvent.m */; };
-		FEBFD76185CB65A2E139A33C /* UIColor+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4BCDE74635BEAA61BCC22B /* UIColor+TDCore.m */; };
+		020A1E803EEED9A88C4DFEEB /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925D10162A3CF4A74CFC2F7 /* UIAlertView+Block.m */; };
+		02A0182E5C429176B367EF0B /* TDThemeManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5466A92E9D46E0CA7C5D959F /* TDThemeManagement.h */; };
+		0592809CB549F85B089B0372 /* TDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE4047F7F5CFE59F7BEB882 /* TDLog.h */; };
+		13314025FB5D81D384F88B10 /* UIViewController+Popup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8490FD3D3ADCF033589B2F6D /* UIViewController+Popup.h */; };
+		1DF2B99E551B00FD3E66B432 /* UIResponder+TDPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3807D78740A0ADEA88BFA2 /* UIResponder+TDPush.m */; };
+		1ECC87CA4363DAC8D3CF6F1C /* NSObject+File.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA3FCFC861AE4B0057B2B2E /* NSObject+File.h */; };
+		1F62C8227E1005E6CBDAC12A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4FA8E33FAAF714BC72368 /* CoreGraphics.framework */; };
+		215196B4A0AFDFD49EDCDF0B /* DragTableFooterView_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A668D426E525E6C5161D8E /* DragTableFooterView_ot.h */; };
+		2C44E08F96B48D6622730995 /* TDBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0066CC03F620BCC33C8DA /* TDBaseObject.m */; };
+		31BC0ACE239A03F81A8DFCF8 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B777744EEC0D1543A37E2801 /* blueArrow.png */; };
+		32875ED1D4514275CDE74C15 /* TDPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E5A3F80AFFE88A48A659F /* TDPlist.m */; };
+		361AE0C1523015B9D0A371D8 /* NSDate+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BA1A347C1C5490B86C3F95 /* NSDate+TDCore.h */; };
+		36AF0C27259A98E87FADFC76 /* TDBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 746EFEB7899F765DED4D0B1F /* TDBaseObject.h */; };
+		396C1B2972EC50015BBAF20A /* TDMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993F056B1D8E2BE074E83415 /* TDMultiDelegate.m */; };
+		3A6CA736850EAC57D2E45F30 /* NSString+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BF080E39F725EBFDA371D305 /* NSString+TDCore.h */; };
+		3F55497D1838779DE1058ECA /* UIRefreshControl+UITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D7FC5495C8468243FBAE34 /* UIRefreshControl+UITableView.h */; };
+		40E49B39EED5BDD061092F58 /* TDAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F889A80D9D1C5535D22424 /* TDAlert.m */; };
+		4185582826181D0C50F0147B /* UIScrollView+DragTableSafeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 330420B10AF4F007D2AEAC18 /* UIScrollView+DragTableSafeAnimation.h */; };
+		4734373000B8DABA64A96942 /* TDTableDataSourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C22CE42D4A643F8E60C79 /* TDTableDataSourceDelegate.m */; };
+		473D9EFF5841701FD526CFE5 /* NSObject+TDDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 4547E46361CDB79ECD46577D /* NSObject+TDDocument.h */; };
+		4E0A9D796B46C197ADA2A1F8 /* TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECB45AFE4E0CB51B76F3923 /* TDCore.h */; };
+		50CEAE0861DA616C4DDB47C5 /* UIView+TDRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A91934DE617F77743BE9EA0F /* UIView+TDRecognizer.m */; };
+		528F049FDE0AE04E3B3B148B /* TDTableDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6736A246307684463B6AAE /* TDTableDataSourceDelegate.h */; };
+		569F8DE17DD442BD5E17FA2E /* UIView+TDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B9AAC56CB87A87D1B83A11 /* UIView+TDEvent.m */; };
+		5B910DCB33BFB979E5D2357F /* DragTableFooterView_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B2A075905690C62B28E24B /* DragTableFooterView_ot.m */; };
+		5BD30335BD8D39E9FF7951A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAB2A45D59C225235CBDAE5 /* CoreFoundation.framework */; };
+		60F9A28322F8768D54007F14 /* Pods-MotelShare-TDCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0AF7E01A1E50D1D6DB15D /* Pods-MotelShare-TDCore-dummy.m */; };
+		61DA5A8A84CDA7A3C26C17FD /* NSString+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66625A98327CD9EB21C7B360 /* NSString+TDCore.m */; };
+		632F3E0708779437B45A6760 /* loading-icon-static@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA4D93D83D0AF6B7FFB6642 /* loading-icon-static@2x.png */; };
+		63B7AA314225FE50210D4A76 /* Pods-MotelShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A561FD3782773E9565C2C4B8 /* Pods-MotelShare-dummy.m */; };
+		6505A9DF0DFAC0ABB0661F23 /* UIView+TDEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 477058D2F91FEDD024918031 /* UIView+TDEvent.h */; };
+		75B5DCBAB1E819AABC5BCA4B /* TDThemeManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 996EB692E2F338CFA50D3261 /* TDThemeManagement.m */; };
+		7694B5EAC784E217522B1571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162DFC4AC6C9B5E390D0A829 /* QuartzCore.framework */; };
+		789979FB45306EF77FDF50DE /* TDAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C7E632AF800FB6556D3F71 /* TDAlert.h */; };
+		78F767337C723AB46CD30FC5 /* NSDictionary+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 722A43AF073148B97587D7CD /* NSDictionary+TDCore.h */; };
+		7924FB108CF41434A387317C /* UIScrollView+DragTableSafeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2B3CA1CDF6F97D691FCFE /* UIScrollView+DragTableSafeAnimation.m */; };
+		7AC893A170BFFB6BC9DBFD4E /* UIButton+TDEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F17C150CC1C6FA7034B41E /* UIButton+TDEvent.h */; };
+		7BCB83541316EA425B180144 /* DragTableHeaderView_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = A7008432EB44457974042181 /* DragTableHeaderView_ot.m */; };
+		7E463E35166AF6AA2925C38D /* NSArray+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 80681ACCCBFB31E429876CD3 /* NSArray+TDCore.h */; };
+		7F3137C990DA96DE5E2C9249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EDB4040638DC9F803BF86E /* UIKit.framework */; };
+		803B80513622292CA2F8B341 /* DragTableGestureObserver_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C173C30F36774A1C366EE59 /* DragTableGestureObserver_ot.h */; };
+		80CA57300CF2E8248196E3FB /* UIView+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D59FBC5BA25538F50E094CB /* UIView+TDCore.m */; };
+		80FEDBC832BE94B0BDF077D4 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7978069EBAF13E2AC1A02280 /* UIColor+HexColor.m */; };
+		83B64905DC7BDA450FCAD7F6 /* DragTableGestureObserver_ot.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A17F012A83C85677DF1FE8 /* DragTableGestureObserver_ot.m */; };
+		87DF57581EA3E33278C7C281 /* UIColor+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311D30110DEB89E7635AC15 /* UIColor+TDCore.m */; };
+		8A09BAB9C572F1A464773CC0 /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8E3431359444CC3094C7E4 /* UIColor+HexColor.h */; };
+		8D1405D14DD8CA44BDB72711 /* TDEngineLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 16773407FDE9ABD2A1A62694 /* TDEngineLog.h */; };
+		8DE1DD407C8E7E03329536C2 /* UIButton+TDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 455A32D1046C7A39F1E0B8F0 /* UIButton+TDEvent.m */; };
+		9875D53BAFF9DBBA766116CF /* UIRefreshControl+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5514007FF351B4F98BDD75B1 /* UIRefreshControl+UITableView.m */; };
+		9ADD97624083DFB5939651BF /* UIViewController+TDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A50052BADB31DA71A2C0C5 /* UIViewController+TDLog.m */; };
+		A205CF53D9FE0BA55035D274 /* UIScrollView+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FBCCF9FBA8D2066198F11 /* UIScrollView+TDCore.m */; };
+		ACC842EE97A11274F70FD2B2 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC1DB7EEBD1790FBBFA5610 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */; };
+		AE1CC002513D48FCE56851EB /* UITableView+DragLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE418598CA3A005C584006F /* UITableView+DragLoad.m */; };
+		B3B6C36351AE16DA2CE8C28F /* NSObject+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E97509D805264916232F2 /* NSObject+File.m */; };
+		B3E9E680BDAF9F306FFCDF2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970F946E40981DCB512D7EE7 /* Foundation.framework */; };
+		B508A484297304E1A5C0D355 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297FB41435F8E1646F39909 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */; };
+		B563C573D11529D34E1E81FB /* UIViewController+Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FCA9891B4470D511343DEB /* UIViewController+Popup.m */; };
+		B5A8B51458CCF1B889797616 /* TDPlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D8BBF53520BBD52CADD063 /* TDPlist.h */; };
+		B756DA7D88F3ECE1541DB0F4 /* UIScrollView+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 48546B54C8E4552B736D887E /* UIScrollView+TDCore.h */; };
+		B79A2360C03195E5DDDC90AE /* NSObject+TDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 94393956DB1B3F2F4136A6CC /* NSObject+TDDocument.m */; };
+		B9B226C4FFB6C414F99074A8 /* UIResponder+TDPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C1C915FAB7DEEC5FB0AC37 /* UIResponder+TDPush.h */; };
+		BB63FEA4EB2769230A5C1284 /* UIViewController+TDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD1D420BA87E3CCD77197C7 /* UIViewController+TDLog.h */; };
+		BB711606C1AAEDDC7EB17B36 /* UIView+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F73F49CCC25A06EB19BED6B8 /* UIView+TDCore.h */; };
+		C5E5D6C33A3D95069A87394A /* loading-icon-rotating@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD9A5065FE16518C3076E9C /* loading-icon-rotating@2x.png */; };
+		CEFCA7DC067BF778CBC9D391 /* DragTableDragState_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8C11EF085E62A52AB48B3E /* DragTableDragState_ot.h */; };
+		D1EB9ACD4E05EAD6F144BAED /* DragTableHeaderView_ot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5419A71907C73663B10A93FE /* DragTableHeaderView_ot.h */; };
+		E1BCA6BA7FF690B9A6CA9AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970F946E40981DCB512D7EE7 /* Foundation.framework */; };
+		E64705E406F45A322C057B90 /* TDBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8900628CA6B46B65D8859F6B /* TDBaseViewController.h */; };
+		E90A6AFE0A21C50478B47717 /* NSDictionary+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BA11DEAECDA61A2108DA34 /* NSDictionary+TDCore.m */; };
+		EAA268047B924EE5C81F04E4 /* NSArray+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B358C35C32C0214868246357 /* NSArray+TDCore.m */; };
+		EE97C00F410EDB3B45E86E93 /* TDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995CC91AE522725539B7079E /* TDBaseViewController.m */; };
+		F191E7680E1852F25BC0246E /* UIColor+TDCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84C6BC287EE8DEC3739886 /* UIColor+TDCore.h */; };
+		F3C067C55AAE94699EF51C1C /* UIAlertView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBBA12FDC7F9F84E5D10749 /* UIAlertView+Block.h */; };
+		F6FD133E515123509050D381 /* UITableView+DragLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = C107B38E78FD72A7F45065C7 /* UITableView+DragLoad.h */; };
+		F9A4D3BD33BEFFA49B81431D /* NSDate+TDCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 748055E92477B7EA77A85C43 /* NSDate+TDCore.m */; };
+		FDF327429CDBB9C6055A71BD /* UIView+TDRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BDAE710DFE1A2401F4010B /* UIView+TDRecognizer.h */; };
+		FE28FFE03DF83A55D7191BEC /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F57CD4D93DA5940DFB0C5D6 /* blueArrow@2x.png */; };
+		FFA860FB071850C57978946C /* TDMultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2CEEBA103706DA0768C521 /* TDMultiDelegate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D8DAF24306DDFA98CEFF3C0 /* PBXContainerItemProxy */ = {
+		6617784B60C338C51C901652 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E2926BCFFFCBD8F5B66C534E /* Project object */;
+			containerPortal = 2A56B6756CDD6B38DF45E85C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55187682204905B20251E5FD;
-			remoteInfo = "Pods-MotelShare-TDCore";
-		};
-		E2FE0889C6E74CAD13729DEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2926BCFFFCBD8F5B66C534E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F131D8362B7A43A21F854DE8;
+			remoteGlobalIDString = E2556F72A06DAD8942D26627;
 			remoteInfo = "Pods-MotelShare-TDCore-TDCore";
+		};
+		956373D9E4F7A58441D32D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A56B6756CDD6B38DF45E85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E7D2A58C93A219BD5B4C79;
+			remoteInfo = "Pods-MotelShare-TDCore";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047AFE647109FEC00F968152 /* TDBaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDBaseObject.m; path = TDUtils/TDBaseObject.m; sourceTree = "<group>"; };
-		0639CD408CB58F11497AA312 /* Pods-MotelShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotelShare-acknowledgements.plist"; sourceTree = "<group>"; };
-		09B23F097CE860A95EAB6E01 /* UIRefreshControl+UITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+UITableView.h"; path = "TDCategory/UIRefreshControl+UITableView.h"; sourceTree = "<group>"; };
-		0D7C68CEA5776B06C949FBE8 /* UIScrollView+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TDCore.h"; path = "TDCategory/UIScrollView+TDCore.h"; sourceTree = "<group>"; };
-		149D48D3098FC9130CF04CB6 /* UIAlertView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Block.h"; path = "TDEvent/UIAlertView+Block.h"; sourceTree = "<group>"; };
-		179725FC3A060FC18F3B60CB /* UIView+TDEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDEvent.h"; path = "TDEvent/UIView+TDEvent.h"; sourceTree = "<group>"; };
-		1980C4AF183455247326D4BD /* Pods-MotelShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare.release.xcconfig"; sourceTree = "<group>"; };
-		1C27B2C71B2880CCBADA2568 /* NSDate+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TDCore.h"; path = "TDCategory/NSDate+TDCore.h"; sourceTree = "<group>"; };
-		1DD9CB709C3808E6DC078BF8 /* DragTableHeaderView_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableHeaderView_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableHeaderView_ot.m; sourceTree = "<group>"; };
-		21C461714758092ADE1AEC92 /* UIView+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDCore.h"; path = "TDCategory/UIView+TDCore.h"; sourceTree = "<group>"; };
-		2AC9AAA3AC90A18DB4916EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		31F72CCDC282F2DA0B3DE0B9 /* NSObject+File.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+File.h"; path = "TDEngineLog/NSObject+File.h"; sourceTree = "<group>"; };
-		332026CE86F31D9F86427448 /* NSString+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TDCore.m"; path = "TDCategory/NSString+TDCore.m"; sourceTree = "<group>"; };
-		36ED12DDD16E8139639E1FE5 /* TDTableDataSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDTableDataSourceDelegate.h; path = TDCore/TDTableDataSourceDelegate.h; sourceTree = "<group>"; };
-		37A0D3095D81CAA1B5A1D2C4 /* Pods-MotelShare-TDCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare-TDCore.xcconfig"; sourceTree = "<group>"; };
-		41E429027818DA23EB62656E /* UIScrollView+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TDCore.m"; path = "TDCategory/UIScrollView+TDCore.m"; sourceTree = "<group>"; };
-		4225192CCED4943F28CF5272 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComOpenThreadOTScreenshotHelperSwizzleHelper.m; path = UITableViewDragLoad/PrivateClass/ComOpenThreadOTScreenshotHelperSwizzleHelper.m; sourceTree = "<group>"; };
-		4262491FCF246468E780E826 /* NSString+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TDCore.h"; path = "TDCategory/NSString+TDCore.h"; sourceTree = "<group>"; };
-		45E479D8DB387909DA072627 /* UIButton+TDEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TDEvent.h"; path = "TDEvent/UIButton+TDEvent.h"; sourceTree = "<group>"; };
-		4923D4813FF1C46446F55D1E /* TDCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B3BBE89BD796ACD1D2115FE /* Pods-MotelShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotelShare-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C935DA551EC37F537583AE1 /* DragTableFooterView_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableFooterView_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableFooterView_ot.h; sourceTree = "<group>"; };
-		4E2FE7541813123BB1B598B9 /* UIScrollView+DragTableSafeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DragTableSafeAnimation.m"; path = "UITableViewDragLoad/PrivateClass/UIScrollView+DragTableSafeAnimation.m"; sourceTree = "<group>"; };
-		4F505364DE61C8412342C8F2 /* NSObject+File.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+File.m"; path = "TDEngineLog/NSObject+File.m"; sourceTree = "<group>"; };
-		502FF4B36631DB11AF30A686 /* UIViewController+Popup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Popup.m"; path = "TDPopup/UIViewController+Popup.m"; sourceTree = "<group>"; };
-		50ED6E03C7B8C557BE70D111 /* Pods-MotelShare-TDCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotelShare-TDCore-prefix.pch"; sourceTree = "<group>"; };
-		524FAFE7122847FB86674EA7 /* UIViewController+TDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TDLog.h"; path = "TDEngineLog/UIViewController+TDLog.h"; sourceTree = "<group>"; };
-		5336914BB365703830C87877 /* loading-icon-rotating@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading-icon-rotating@2x.png"; path = "Assets/loading-icon-rotating@2x.png"; sourceTree = "<group>"; };
-		54BC4269A414DB4288893EED /* TDAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDAlert.m; path = TDUtils/TDAlert.m; sourceTree = "<group>"; };
-		57DFC17AF4444FBCBA9802B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		5CEFE127D2BB6DCA2E90D408 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5ED60842FF8075AAE26989B9 /* loading-icon-static@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading-icon-static@2x.png"; path = "Assets/loading-icon-static@2x.png"; sourceTree = "<group>"; };
-		5FAE652E097B70EA0FD488FB /* Pods-MotelShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare.debug.xcconfig"; sourceTree = "<group>"; };
-		63EF34067F17FAC90BF57292 /* TDEngineLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDEngineLog.h; path = TDEngineLog/TDEngineLog.h; sourceTree = "<group>"; };
-		6532D28B83F811E077F6BB37 /* NSDate+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TDCore.m"; path = "TDCategory/NSDate+TDCore.m"; sourceTree = "<group>"; };
-		67D9E13DBE8B1B1FE8CE807D /* TDThemeManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDThemeManagement.m; path = TDUtils/TDThemeManagement.m; sourceTree = "<group>"; };
-		68736E6DD75BB4EE424F2420 /* TDAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDAlert.h; path = TDUtils/TDAlert.h; sourceTree = "<group>"; };
-		68D59B720C941CA381D93F6B /* UIResponder+TDPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+TDPush.m"; path = "TDCategory/UIResponder+TDPush.m"; sourceTree = "<group>"; };
-		68DB5C03D76C693A618CD229 /* UITableView+DragLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DragLoad.m"; path = "UITableViewDragLoad/PublicClass/UITableView+DragLoad.m"; sourceTree = "<group>"; };
-		72CCB6D65AAC1C6AFC672163 /* TDMultiDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMultiDelegate.h; path = TDUtils/TDMultiDelegate.h; sourceTree = "<group>"; };
-		7FE56695D9F7C7C38D794A40 /* UIScrollView+DragTableSafeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DragTableSafeAnimation.h"; path = "UITableViewDragLoad/PrivateClass/UIScrollView+DragTableSafeAnimation.h"; sourceTree = "<group>"; };
-		81949D0C229554D67F966C25 /* DragTableGestureObserver_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableGestureObserver_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableGestureObserver_ot.m; sourceTree = "<group>"; };
-		8525B5153B3E008F6AB6CDEE /* UIButton+TDEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TDEvent.m"; path = "TDEvent/UIButton+TDEvent.m"; sourceTree = "<group>"; };
-		8787EF7F61198F974325F7E9 /* TDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDLog.h; path = TDEngineLog/TDLog.h; sourceTree = "<group>"; };
-		8E007910E0210B8D5AB84DED /* UIColor+HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "TDCategory/UIColor+HexColor.h"; sourceTree = "<group>"; };
-		8EA4E887561F9F17AD001BB3 /* DragTableFooterView_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableFooterView_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableFooterView_ot.m; sourceTree = "<group>"; };
-		901BA4319604A23EB5BFBC17 /* TDTableDataSourceDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDTableDataSourceDelegate.m; path = TDCore/TDTableDataSourceDelegate.m; sourceTree = "<group>"; };
-		917C40415EB200310E2E806B /* Pods-MotelShare-TDCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotelShare-TDCore-dummy.m"; sourceTree = "<group>"; };
-		9195F89FB2A26E384C9FF33C /* blueArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = blueArrow.png; path = Assets/blueArrow.png; sourceTree = "<group>"; };
-		948A1FC2BCC243627F9CF7AC /* UIColor+HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "TDCategory/UIColor+HexColor.m"; sourceTree = "<group>"; };
-		94C7649EB5BEED958D385B93 /* Pods-MotelShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotelShare-resources.sh"; sourceTree = "<group>"; };
-		9523A1680B396BCDB54A159F /* NSDictionary+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+TDCore.h"; path = "TDCategory/NSDictionary+TDCore.h"; sourceTree = "<group>"; };
-		96267D8A34659A40D93E16EB /* TDBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDBaseViewController.h; path = TDCore/TDBaseViewController.h; sourceTree = "<group>"; };
-		984659F7E0CAD226B4A4800A /* libPods-MotelShare-TDCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotelShare-TDCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		998BA3F5DD0FEFDF7C885BA2 /* blueArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "Assets/blueArrow@2x.png"; sourceTree = "<group>"; };
-		9C51FC35D268A0E704FE15AA /* UIRefreshControl+UITableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+UITableView.m"; path = "TDCategory/UIRefreshControl+UITableView.m"; sourceTree = "<group>"; };
-		9DCB38DA80CF945470B0CD7F /* UIView+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDCore.m"; path = "TDCategory/UIView+TDCore.m"; sourceTree = "<group>"; };
-		A3D11887B2DC52F2FE90C1D7 /* DragTableHeaderView_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableHeaderView_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableHeaderView_ot.h; sourceTree = "<group>"; };
-		AB6F237594B983892E218106 /* UITableView+DragLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+DragLoad.h"; path = "UITableViewDragLoad/PublicClass/UITableView+DragLoad.h"; sourceTree = "<group>"; };
-		AC3F1F648DE0A30E6D6E4936 /* Pods-MotelShare-TDCore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare-TDCore-Private.xcconfig"; sourceTree = "<group>"; };
-		B12904D337B7112BC51F743B /* TDThemeManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDThemeManagement.h; path = TDUtils/TDThemeManagement.h; sourceTree = "<group>"; };
-		B3B24D7E86056847301525B2 /* NSArray+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+TDCore.h"; path = "TDCategory/NSArray+TDCore.h"; sourceTree = "<group>"; };
-		B663C1AEADAA1736C9368E3A /* UIAlertView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Block.m"; path = "TDEvent/UIAlertView+Block.m"; sourceTree = "<group>"; };
-		B8AE7334706ED61576C4678D /* TDBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDBaseViewController.m; path = TDCore/TDBaseViewController.m; sourceTree = "<group>"; };
-		C42C5B8449061E38EFA01A9C /* TDPlist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDPlist.m; path = TDUtils/TDPlist.m; sourceTree = "<group>"; };
-		C53B044DD6D1FBD4580EDBC1 /* UIView+TDRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDRecognizer.m"; path = "TDCategory/UIView+TDRecognizer.m"; sourceTree = "<group>"; };
-		C90CB8B2DAA0C9317908D441 /* UIViewController+Popup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Popup.h"; path = "TDPopup/UIViewController+Popup.h"; sourceTree = "<group>"; };
-		CA8DA9580E9BB22FE793FB5A /* UIView+TDEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDEvent.m"; path = "TDEvent/UIView+TDEvent.m"; sourceTree = "<group>"; };
-		CC4BCDE74635BEAA61BCC22B /* UIColor+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+TDCore.m"; path = "TDCategory/UIColor+TDCore.m"; sourceTree = "<group>"; };
-		CC91D9EBA140DFF31242FEB8 /* libPods-MotelShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotelShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC7FB668C60C6B673256F80 /* UIResponder+TDPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+TDPush.h"; path = "TDCategory/UIResponder+TDPush.h"; sourceTree = "<group>"; };
-		CFDB185E4DDB3570F206F615 /* UIView+TDRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDRecognizer.h"; path = "TDCategory/UIView+TDRecognizer.h"; sourceTree = "<group>"; };
-		D1ED7656FE6F310982532080 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1FE2D1F86F35365B84110F3 /* Pods-MotelShare-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotelShare-environment.h"; sourceTree = "<group>"; };
-		D202ABC20A8289C80D88C2CC /* NSDictionary+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+TDCore.m"; path = "TDCategory/NSDictionary+TDCore.m"; sourceTree = "<group>"; };
-		D57F8B0510EC1E907CB6F5EC /* TDMultiDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMultiDelegate.m; path = TDUtils/TDMultiDelegate.m; sourceTree = "<group>"; };
-		D7EF61276A064CAD4D21180F /* DragTableGestureObserver_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableGestureObserver_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableGestureObserver_ot.h; sourceTree = "<group>"; };
-		DB613E9E9A141C72EC2BEF5E /* NSObject+TDDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TDDocument.m"; path = "TDCategory/NSObject+TDDocument.m"; sourceTree = "<group>"; };
-		DFE65E29CA8CCF9B91188A5F /* TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDCore.h; path = TDCore/TDCore.h; sourceTree = "<group>"; };
-		E777B3B5FA3BD15B86B974F9 /* UIViewController+TDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TDLog.m"; path = "TDEngineLog/UIViewController+TDLog.m"; sourceTree = "<group>"; };
-		E7EF676C254D05F44B52F7BF /* NSObject+TDDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TDDocument.h"; path = "TDCategory/NSObject+TDDocument.h"; sourceTree = "<group>"; };
-		EACB168CDAEEF1F3C8989FEC /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComOpenThreadOTScreenshotHelperSwizzleHelper.h; path = UITableViewDragLoad/PrivateClass/ComOpenThreadOTScreenshotHelperSwizzleHelper.h; sourceTree = "<group>"; };
-		EDF0D6BC9C40B32249A9496F /* TDBaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDBaseObject.h; path = TDUtils/TDBaseObject.h; sourceTree = "<group>"; };
-		EE948A86A0DBD491E68432F0 /* Pods-MotelShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotelShare-dummy.m"; sourceTree = "<group>"; };
-		EF8C8DDC37D4C2BF5D22FF16 /* UIColor+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+TDCore.h"; path = "TDCategory/UIColor+TDCore.h"; sourceTree = "<group>"; };
-		EFEC37D597AB64CE27223CEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F1CB43009EFCDCC08F9B0F4B /* TDPlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDPlist.h; path = TDUtils/TDPlist.h; sourceTree = "<group>"; };
-		F4CA78434710226FC11F6C04 /* NSArray+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+TDCore.m"; path = "TDCategory/NSArray+TDCore.m"; sourceTree = "<group>"; };
-		F6359EEB9EBD1695EC75DEA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FCCFA205A4747E1F96CF7F59 /* DragTableDragState_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableDragState_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableDragState_ot.h; sourceTree = "<group>"; };
+		02B2A075905690C62B28E24B /* DragTableFooterView_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableFooterView_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableFooterView_ot.m; sourceTree = "<group>"; };
+		0AD0066CC03F620BCC33C8DA /* TDBaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDBaseObject.m; path = TDUtils/TDBaseObject.m; sourceTree = "<group>"; };
+		0BA4D93D83D0AF6B7FFB6642 /* loading-icon-static@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading-icon-static@2x.png"; path = "Assets/loading-icon-static@2x.png"; sourceTree = "<group>"; };
+		0D8E3431359444CC3094C7E4 /* UIColor+HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "TDCategory/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		0FC1DB7EEBD1790FBBFA5610 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComOpenThreadOTScreenshotHelperSwizzleHelper.h; path = UITableViewDragLoad/PrivateClass/ComOpenThreadOTScreenshotHelperSwizzleHelper.h; sourceTree = "<group>"; };
+		10A668D426E525E6C5161D8E /* DragTableFooterView_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableFooterView_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableFooterView_ot.h; sourceTree = "<group>"; };
+		162DFC4AC6C9B5E390D0A829 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		16773407FDE9ABD2A1A62694 /* TDEngineLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDEngineLog.h; path = TDEngineLog/TDEngineLog.h; sourceTree = "<group>"; };
+		1C3807D78740A0ADEA88BFA2 /* UIResponder+TDPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+TDPush.m"; path = "TDCategory/UIResponder+TDPush.m"; sourceTree = "<group>"; };
+		1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare-TDCore-Private.xcconfig"; sourceTree = "<group>"; };
+		21D8BBF53520BBD52CADD063 /* TDPlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDPlist.h; path = TDUtils/TDPlist.h; sourceTree = "<group>"; };
+		2311D30110DEB89E7635AC15 /* UIColor+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+TDCore.m"; path = "TDCategory/UIColor+TDCore.m"; sourceTree = "<group>"; };
+		265FBCCF9FBA8D2066198F11 /* UIScrollView+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TDCore.m"; path = "TDCategory/UIScrollView+TDCore.m"; sourceTree = "<group>"; };
+		2BAB2A45D59C225235CBDAE5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C173C30F36774A1C366EE59 /* DragTableGestureObserver_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableGestureObserver_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableGestureObserver_ot.h; sourceTree = "<group>"; };
+		330420B10AF4F007D2AEAC18 /* UIScrollView+DragTableSafeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+DragTableSafeAnimation.h"; path = "UITableViewDragLoad/PrivateClass/UIScrollView+DragTableSafeAnimation.h"; sourceTree = "<group>"; };
+		3ECB45AFE4E0CB51B76F3923 /* TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDCore.h; path = TDCore/TDCore.h; sourceTree = "<group>"; };
+		40C1C915FAB7DEEC5FB0AC37 /* UIResponder+TDPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+TDPush.h"; path = "TDCategory/UIResponder+TDPush.h"; sourceTree = "<group>"; };
+		4297FB41435F8E1646F39909 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComOpenThreadOTScreenshotHelperSwizzleHelper.m; path = UITableViewDragLoad/PrivateClass/ComOpenThreadOTScreenshotHelperSwizzleHelper.m; sourceTree = "<group>"; };
+		44EDB4040638DC9F803BF86E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4547E46361CDB79ECD46577D /* NSObject+TDDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TDDocument.h"; path = "TDCategory/NSObject+TDDocument.h"; sourceTree = "<group>"; };
+		455A32D1046C7A39F1E0B8F0 /* UIButton+TDEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TDEvent.m"; path = "TDEvent/UIButton+TDEvent.m"; sourceTree = "<group>"; };
+		46A17F012A83C85677DF1FE8 /* DragTableGestureObserver_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableGestureObserver_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableGestureObserver_ot.m; sourceTree = "<group>"; };
+		477058D2F91FEDD024918031 /* UIView+TDEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDEvent.h"; path = "TDEvent/UIView+TDEvent.h"; sourceTree = "<group>"; };
+		48546B54C8E4552B736D887E /* UIScrollView+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TDCore.h"; path = "TDCategory/UIScrollView+TDCore.h"; sourceTree = "<group>"; };
+		48D7FC5495C8468243FBAE34 /* UIRefreshControl+UITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+UITableView.h"; path = "TDCategory/UIRefreshControl+UITableView.h"; sourceTree = "<group>"; };
+		49BDAE710DFE1A2401F4010B /* UIView+TDRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDRecognizer.h"; path = "TDCategory/UIView+TDRecognizer.h"; sourceTree = "<group>"; };
+		5419A71907C73663B10A93FE /* DragTableHeaderView_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableHeaderView_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableHeaderView_ot.h; sourceTree = "<group>"; };
+		5466A92E9D46E0CA7C5D959F /* TDThemeManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDThemeManagement.h; path = TDUtils/TDThemeManagement.h; sourceTree = "<group>"; };
+		5514007FF351B4F98BDD75B1 /* UIRefreshControl+UITableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+UITableView.m"; path = "TDCategory/UIRefreshControl+UITableView.m"; sourceTree = "<group>"; };
+		57A0AF7E01A1E50D1D6DB15D /* Pods-MotelShare-TDCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotelShare-TDCore-dummy.m"; sourceTree = "<group>"; };
+		639704B2974135B37EADFE5D /* Pods-MotelShare-TDCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotelShare-TDCore-prefix.pch"; sourceTree = "<group>"; };
+		64B9AAC56CB87A87D1B83A11 /* UIView+TDEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDEvent.m"; path = "TDEvent/UIView+TDEvent.m"; sourceTree = "<group>"; };
+		66625A98327CD9EB21C7B360 /* NSString+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TDCore.m"; path = "TDCategory/NSString+TDCore.m"; sourceTree = "<group>"; };
+		6925D10162A3CF4A74CFC2F7 /* UIAlertView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Block.m"; path = "TDEvent/UIAlertView+Block.m"; sourceTree = "<group>"; };
+		710177C1EB51B605638AF706 /* Pods-MotelShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotelShare-resources.sh"; sourceTree = "<group>"; };
+		71F889A80D9D1C5535D22424 /* TDAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDAlert.m; path = TDUtils/TDAlert.m; sourceTree = "<group>"; };
+		722A43AF073148B97587D7CD /* NSDictionary+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+TDCore.h"; path = "TDCategory/NSDictionary+TDCore.h"; sourceTree = "<group>"; };
+		746EFEB7899F765DED4D0B1F /* TDBaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDBaseObject.h; path = TDUtils/TDBaseObject.h; sourceTree = "<group>"; };
+		748055E92477B7EA77A85C43 /* NSDate+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TDCore.m"; path = "TDCategory/NSDate+TDCore.m"; sourceTree = "<group>"; };
+		75F17C150CC1C6FA7034B41E /* UIButton+TDEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TDEvent.h"; path = "TDEvent/UIButton+TDEvent.h"; sourceTree = "<group>"; };
+		7978069EBAF13E2AC1A02280 /* UIColor+HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "TDCategory/UIColor+HexColor.m"; sourceTree = "<group>"; };
+		7D59FBC5BA25538F50E094CB /* UIView+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDCore.m"; path = "TDCategory/UIView+TDCore.m"; sourceTree = "<group>"; };
+		7DE4047F7F5CFE59F7BEB882 /* TDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDLog.h; path = TDEngineLog/TDLog.h; sourceTree = "<group>"; };
+		7F4E5A3F80AFFE88A48A659F /* TDPlist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDPlist.m; path = TDUtils/TDPlist.m; sourceTree = "<group>"; };
+		7F8C11EF085E62A52AB48B3E /* DragTableDragState_ot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragTableDragState_ot.h; path = UITableViewDragLoad/PrivateClass/DragTableDragState_ot.h; sourceTree = "<group>"; };
+		80681ACCCBFB31E429876CD3 /* NSArray+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+TDCore.h"; path = "TDCategory/NSArray+TDCore.h"; sourceTree = "<group>"; };
+		8490FD3D3ADCF033589B2F6D /* UIViewController+Popup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Popup.h"; path = "TDPopup/UIViewController+Popup.h"; sourceTree = "<group>"; };
+		8900628CA6B46B65D8859F6B /* TDBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDBaseViewController.h; path = TDCore/TDBaseViewController.h; sourceTree = "<group>"; };
+		890E97509D805264916232F2 /* NSObject+File.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+File.m"; path = "TDEngineLog/NSObject+File.m"; sourceTree = "<group>"; };
+		94393956DB1B3F2F4136A6CC /* NSObject+TDDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TDDocument.m"; path = "TDCategory/NSObject+TDDocument.m"; sourceTree = "<group>"; };
+		970F946E40981DCB512D7EE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		993F056B1D8E2BE074E83415 /* TDMultiDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDMultiDelegate.m; path = TDUtils/TDMultiDelegate.m; sourceTree = "<group>"; };
+		995CC91AE522725539B7079E /* TDBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDBaseViewController.m; path = TDCore/TDBaseViewController.m; sourceTree = "<group>"; };
+		996EB692E2F338CFA50D3261 /* TDThemeManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDThemeManagement.m; path = TDUtils/TDThemeManagement.m; sourceTree = "<group>"; };
+		9BA3FCFC861AE4B0057B2B2E /* NSObject+File.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+File.h"; path = "TDEngineLog/NSObject+File.h"; sourceTree = "<group>"; };
+		9BD1D420BA87E3CCD77197C7 /* UIViewController+TDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TDLog.h"; path = "TDEngineLog/UIViewController+TDLog.h"; sourceTree = "<group>"; };
+		9C2CEEBA103706DA0768C521 /* TDMultiDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDMultiDelegate.h; path = TDUtils/TDMultiDelegate.h; sourceTree = "<group>"; };
+		9F57CD4D93DA5940DFB0C5D6 /* blueArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "Assets/blueArrow@2x.png"; sourceTree = "<group>"; };
+		A561FD3782773E9565C2C4B8 /* Pods-MotelShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotelShare-dummy.m"; sourceTree = "<group>"; };
+		A6C4FA8E33FAAF714BC72368 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A7008432EB44457974042181 /* DragTableHeaderView_ot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DragTableHeaderView_ot.m; path = UITableViewDragLoad/PrivateClass/DragTableHeaderView_ot.m; sourceTree = "<group>"; };
+		A8A50052BADB31DA71A2C0C5 /* UIViewController+TDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TDLog.m"; path = "TDEngineLog/UIViewController+TDLog.m"; sourceTree = "<group>"; };
+		A91934DE617F77743BE9EA0F /* UIView+TDRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDRecognizer.m"; path = "TDCategory/UIView+TDRecognizer.m"; sourceTree = "<group>"; };
+		AC3A1FD26A928FE39842754D /* libPods-MotelShare-TDCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotelShare-TDCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBBA12FDC7F9F84E5D10749 /* UIAlertView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Block.h"; path = "TDEvent/UIAlertView+Block.h"; sourceTree = "<group>"; };
+		B2C7E632AF800FB6556D3F71 /* TDAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDAlert.h; path = TDUtils/TDAlert.h; sourceTree = "<group>"; };
+		B358C35C32C0214868246357 /* NSArray+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+TDCore.m"; path = "TDCategory/NSArray+TDCore.m"; sourceTree = "<group>"; };
+		B5D83537F19FF3863784A105 /* Pods-MotelShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotelShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6D1D40A2102A3BD7469927D /* Pods-MotelShare-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotelShare-environment.h"; sourceTree = "<group>"; };
+		B777744EEC0D1543A37E2801 /* blueArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = blueArrow.png; path = Assets/blueArrow.png; sourceTree = "<group>"; };
+		BB449C0C785F819C94D66DE2 /* Pods-MotelShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotelShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF080E39F725EBFDA371D305 /* NSString+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TDCore.h"; path = "TDCategory/NSString+TDCore.h"; sourceTree = "<group>"; };
+		C107B38E78FD72A7F45065C7 /* UITableView+DragLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+DragLoad.h"; path = "UITableViewDragLoad/PublicClass/UITableView+DragLoad.h"; sourceTree = "<group>"; };
+		CB6736A246307684463B6AAE /* TDTableDataSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDTableDataSourceDelegate.h; path = TDCore/TDTableDataSourceDelegate.h; sourceTree = "<group>"; };
+		D1B9A0EA7F1A10554568F5D3 /* Pods-MotelShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare.debug.xcconfig"; sourceTree = "<group>"; };
+		D4BA11DEAECDA61A2108DA34 /* NSDictionary+TDCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+TDCore.m"; path = "TDCategory/NSDictionary+TDCore.m"; sourceTree = "<group>"; };
+		D502A5C77D8D63A84F891625 /* Pods-MotelShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare.release.xcconfig"; sourceTree = "<group>"; };
+		DBA4A31D8EBCA17164513B54 /* Pods-MotelShare-TDCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotelShare-TDCore.xcconfig"; sourceTree = "<group>"; };
+		DBE418598CA3A005C584006F /* UITableView+DragLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DragLoad.m"; path = "UITableViewDragLoad/PublicClass/UITableView+DragLoad.m"; sourceTree = "<group>"; };
+		E12C22CE42D4A643F8E60C79 /* TDTableDataSourceDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDTableDataSourceDelegate.m; path = TDCore/TDTableDataSourceDelegate.m; sourceTree = "<group>"; };
+		EEB1D282096890AD9B1072BF /* libPods-MotelShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotelShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BA1A347C1C5490B86C3F95 /* NSDate+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TDCore.h"; path = "TDCategory/NSDate+TDCore.h"; sourceTree = "<group>"; };
+		F3FCA9891B4470D511343DEB /* UIViewController+Popup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Popup.m"; path = "TDPopup/UIViewController+Popup.m"; sourceTree = "<group>"; };
+		F6512E2C3BBA5FB095455C85 /* TDCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73F49CCC25A06EB19BED6B8 /* UIView+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDCore.h"; path = "TDCategory/UIView+TDCore.h"; sourceTree = "<group>"; };
+		FABF443FD3AB01CB0ABE593A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC84C6BC287EE8DEC3739886 /* UIColor+TDCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+TDCore.h"; path = "TDCategory/UIColor+TDCore.h"; sourceTree = "<group>"; };
+		FCA2B3CA1CDF6F97D691FCFE /* UIScrollView+DragTableSafeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+DragTableSafeAnimation.m"; path = "UITableViewDragLoad/PrivateClass/UIScrollView+DragTableSafeAnimation.m"; sourceTree = "<group>"; };
+		FCD9A5065FE16518C3076E9C /* loading-icon-rotating@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading-icon-rotating@2x.png"; path = "Assets/loading-icon-rotating@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39F1E997DF2BA6412BBE40B7 /* Frameworks */ = {
+		6CDA221A196A90F29A359AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD30335BD8D39E9FF7951A1 /* CoreFoundation.framework in Frameworks */,
+				1F62C8227E1005E6CBDAC12A /* CoreGraphics.framework in Frameworks */,
+				E1BCA6BA7FF690B9A6CA9AD2 /* Foundation.framework in Frameworks */,
+				7694B5EAC784E217522B1571 /* QuartzCore.framework in Frameworks */,
+				7F3137C990DA96DE5E2C9249 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB21F0F71E71A6A0D4B1C15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FA7BAD9F9120F57D3D22BFF /* Frameworks */ = {
+		B4471E98C1AF4D49E70C0F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65417E35CCC8100E9A7639D /* CoreFoundation.framework in Frameworks */,
-				B43F7A40362DF11595DCF0F3 /* CoreGraphics.framework in Frameworks */,
-				EA49C91DEFD14619B1661E80 /* Foundation.framework in Frameworks */,
-				862BEDA4AE8962AA3AECA13B /* QuartzCore.framework in Frameworks */,
-				4FDB2636635BC67103E01EAA /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8EAF142AA30DE72C2A3D131 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1016D198C36DA21B81DC8630 /* Foundation.framework in Frameworks */,
+				B3E9E680BDAF9F306FFCDF2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03F5522665C802E22914C502 = {
+		046E247616AC8CA905ACC086 = {
 			isa = PBXGroup;
 			children = (
-				5CEFE127D2BB6DCA2E90D408 /* Podfile */,
-				3E26370FC131126395300AB8 /* Frameworks */,
-				AAB0469277ADD73953BF3E77 /* Pods */,
-				836E9AC56EDE3796E9C7D6E5 /* Products */,
-				E45B6D2DBF17023378296B01 /* Targets Support Files */,
+				FABF443FD3AB01CB0ABE593A /* Podfile */,
+				EDCC88E8F30202ED5FB6D923 /* Frameworks */,
+				C00AC2CC2F541B15CFACC37A /* Pods */,
+				E4637AA04C0F059A0FB0A6F5 /* Products */,
+				22ABAAA27ED24431B12CDE41 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		1DE4C38893CAC87B2955B47F /* TDCore */ = {
+		22ABAAA27ED24431B12CDE41 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				96267D8A34659A40D93E16EB /* TDBaseViewController.h */,
-				B8AE7334706ED61576C4678D /* TDBaseViewController.m */,
-				DFE65E29CA8CCF9B91188A5F /* TDCore.h */,
-				36ED12DDD16E8139639E1FE5 /* TDTableDataSourceDelegate.h */,
-				901BA4319604A23EB5BFBC17 /* TDTableDataSourceDelegate.m */,
-				DE7640D15BD8DFADBDC8442D /* Resources */,
-				BFBAC339A189FAED012CBFF0 /* Support Files */,
-				7909D1EC13309D2AACBB8EB8 /* TDCategory */,
-				8EBFC79B26D70DD935A1AE6D /* TDEngineLog */,
-				FF9C2EB44703C3735AB84DF3 /* TDEvent */,
-				FF32AEDA18F0F37BED345E3A /* TDPopup */,
-				7F5D8CC9D2E0573F00FC06FD /* TDUtils */,
-				9AB65ACEB99C4F43E509BFC5 /* TableViewDragLoad */,
+				F712A47BCF463E55AF95AD72 /* Pods-MotelShare */,
 			);
-			path = TDCore;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E26370FC131126395300AB8 /* Frameworks */ = {
+		2464B169B5E01B66B2207202 /* TDEvent */ = {
 			isa = PBXGroup;
 			children = (
-				DDFAC79F4C64D8392F7016D4 /* iOS */,
+				ADBBA12FDC7F9F84E5D10749 /* UIAlertView+Block.h */,
+				6925D10162A3CF4A74CFC2F7 /* UIAlertView+Block.m */,
+				75F17C150CC1C6FA7034B41E /* UIButton+TDEvent.h */,
+				455A32D1046C7A39F1E0B8F0 /* UIButton+TDEvent.m */,
+				477058D2F91FEDD024918031 /* UIView+TDEvent.h */,
+				64B9AAC56CB87A87D1B83A11 /* UIView+TDEvent.m */,
 			);
-			name = Frameworks;
+			name = TDEvent;
 			sourceTree = "<group>";
 		};
-		7909D1EC13309D2AACBB8EB8 /* TDCategory */ = {
+		3148D609C2EB0C2D623097FF /* TDUtils */ = {
 			isa = PBXGroup;
 			children = (
-				B3B24D7E86056847301525B2 /* NSArray+TDCore.h */,
-				F4CA78434710226FC11F6C04 /* NSArray+TDCore.m */,
-				1C27B2C71B2880CCBADA2568 /* NSDate+TDCore.h */,
-				6532D28B83F811E077F6BB37 /* NSDate+TDCore.m */,
-				9523A1680B396BCDB54A159F /* NSDictionary+TDCore.h */,
-				D202ABC20A8289C80D88C2CC /* NSDictionary+TDCore.m */,
-				E7EF676C254D05F44B52F7BF /* NSObject+TDDocument.h */,
-				DB613E9E9A141C72EC2BEF5E /* NSObject+TDDocument.m */,
-				4262491FCF246468E780E826 /* NSString+TDCore.h */,
-				332026CE86F31D9F86427448 /* NSString+TDCore.m */,
-				8E007910E0210B8D5AB84DED /* UIColor+HexColor.h */,
-				948A1FC2BCC243627F9CF7AC /* UIColor+HexColor.m */,
-				EF8C8DDC37D4C2BF5D22FF16 /* UIColor+TDCore.h */,
-				CC4BCDE74635BEAA61BCC22B /* UIColor+TDCore.m */,
-				09B23F097CE860A95EAB6E01 /* UIRefreshControl+UITableView.h */,
-				9C51FC35D268A0E704FE15AA /* UIRefreshControl+UITableView.m */,
-				CEC7FB668C60C6B673256F80 /* UIResponder+TDPush.h */,
-				68D59B720C941CA381D93F6B /* UIResponder+TDPush.m */,
-				0D7C68CEA5776B06C949FBE8 /* UIScrollView+TDCore.h */,
-				41E429027818DA23EB62656E /* UIScrollView+TDCore.m */,
-				21C461714758092ADE1AEC92 /* UIView+TDCore.h */,
-				9DCB38DA80CF945470B0CD7F /* UIView+TDCore.m */,
-				CFDB185E4DDB3570F206F615 /* UIView+TDRecognizer.h */,
-				C53B044DD6D1FBD4580EDBC1 /* UIView+TDRecognizer.m */,
-			);
-			name = TDCategory;
-			sourceTree = "<group>";
-		};
-		7F5D8CC9D2E0573F00FC06FD /* TDUtils */ = {
-			isa = PBXGroup;
-			children = (
-				68736E6DD75BB4EE424F2420 /* TDAlert.h */,
-				54BC4269A414DB4288893EED /* TDAlert.m */,
-				EDF0D6BC9C40B32249A9496F /* TDBaseObject.h */,
-				047AFE647109FEC00F968152 /* TDBaseObject.m */,
-				72CCB6D65AAC1C6AFC672163 /* TDMultiDelegate.h */,
-				D57F8B0510EC1E907CB6F5EC /* TDMultiDelegate.m */,
-				F1CB43009EFCDCC08F9B0F4B /* TDPlist.h */,
-				C42C5B8449061E38EFA01A9C /* TDPlist.m */,
-				B12904D337B7112BC51F743B /* TDThemeManagement.h */,
-				67D9E13DBE8B1B1FE8CE807D /* TDThemeManagement.m */,
+				B2C7E632AF800FB6556D3F71 /* TDAlert.h */,
+				71F889A80D9D1C5535D22424 /* TDAlert.m */,
+				746EFEB7899F765DED4D0B1F /* TDBaseObject.h */,
+				0AD0066CC03F620BCC33C8DA /* TDBaseObject.m */,
+				9C2CEEBA103706DA0768C521 /* TDMultiDelegate.h */,
+				993F056B1D8E2BE074E83415 /* TDMultiDelegate.m */,
+				21D8BBF53520BBD52CADD063 /* TDPlist.h */,
+				7F4E5A3F80AFFE88A48A659F /* TDPlist.m */,
+				5466A92E9D46E0CA7C5D959F /* TDThemeManagement.h */,
+				996EB692E2F338CFA50D3261 /* TDThemeManagement.m */,
 			);
 			name = TDUtils;
 			sourceTree = "<group>";
 		};
-		836E9AC56EDE3796E9C7D6E5 /* Products */ = {
+		439100463B2F74302390D611 /* TDEngineLog */ = {
 			isa = PBXGroup;
 			children = (
-				4923D4813FF1C46446F55D1E /* TDCore.bundle */,
-				CC91D9EBA140DFF31242FEB8 /* libPods-MotelShare.a */,
-				984659F7E0CAD226B4A4800A /* libPods-MotelShare-TDCore.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8EBFC79B26D70DD935A1AE6D /* TDEngineLog */ = {
-			isa = PBXGroup;
-			children = (
-				31F72CCDC282F2DA0B3DE0B9 /* NSObject+File.h */,
-				4F505364DE61C8412342C8F2 /* NSObject+File.m */,
-				63EF34067F17FAC90BF57292 /* TDEngineLog.h */,
-				8787EF7F61198F974325F7E9 /* TDLog.h */,
-				524FAFE7122847FB86674EA7 /* UIViewController+TDLog.h */,
-				E777B3B5FA3BD15B86B974F9 /* UIViewController+TDLog.m */,
+				9BA3FCFC861AE4B0057B2B2E /* NSObject+File.h */,
+				890E97509D805264916232F2 /* NSObject+File.m */,
+				16773407FDE9ABD2A1A62694 /* TDEngineLog.h */,
+				7DE4047F7F5CFE59F7BEB882 /* TDLog.h */,
+				9BD1D420BA87E3CCD77197C7 /* UIViewController+TDLog.h */,
+				A8A50052BADB31DA71A2C0C5 /* UIViewController+TDLog.m */,
 			);
 			name = TDEngineLog;
 			sourceTree = "<group>";
 		};
-		9AB65ACEB99C4F43E509BFC5 /* TableViewDragLoad */ = {
+		635D638987564385A13EDEAE /* TDPopup */ = {
 			isa = PBXGroup;
 			children = (
-				EACB168CDAEEF1F3C8989FEC /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */,
-				4225192CCED4943F28CF5272 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */,
-				FCCFA205A4747E1F96CF7F59 /* DragTableDragState_ot.h */,
-				4C935DA551EC37F537583AE1 /* DragTableFooterView_ot.h */,
-				8EA4E887561F9F17AD001BB3 /* DragTableFooterView_ot.m */,
-				D7EF61276A064CAD4D21180F /* DragTableGestureObserver_ot.h */,
-				81949D0C229554D67F966C25 /* DragTableGestureObserver_ot.m */,
-				A3D11887B2DC52F2FE90C1D7 /* DragTableHeaderView_ot.h */,
-				1DD9CB709C3808E6DC078BF8 /* DragTableHeaderView_ot.m */,
-				7FE56695D9F7C7C38D794A40 /* UIScrollView+DragTableSafeAnimation.h */,
-				4E2FE7541813123BB1B598B9 /* UIScrollView+DragTableSafeAnimation.m */,
-				AB6F237594B983892E218106 /* UITableView+DragLoad.h */,
-				68DB5C03D76C693A618CD229 /* UITableView+DragLoad.m */,
+				8490FD3D3ADCF033589B2F6D /* UIViewController+Popup.h */,
+				F3FCA9891B4470D511343DEB /* UIViewController+Popup.m */,
+			);
+			name = TDPopup;
+			sourceTree = "<group>";
+		};
+		7181E18CBCC860F59F8E02E3 /* TDCategory */ = {
+			isa = PBXGroup;
+			children = (
+				80681ACCCBFB31E429876CD3 /* NSArray+TDCore.h */,
+				B358C35C32C0214868246357 /* NSArray+TDCore.m */,
+				F3BA1A347C1C5490B86C3F95 /* NSDate+TDCore.h */,
+				748055E92477B7EA77A85C43 /* NSDate+TDCore.m */,
+				722A43AF073148B97587D7CD /* NSDictionary+TDCore.h */,
+				D4BA11DEAECDA61A2108DA34 /* NSDictionary+TDCore.m */,
+				4547E46361CDB79ECD46577D /* NSObject+TDDocument.h */,
+				94393956DB1B3F2F4136A6CC /* NSObject+TDDocument.m */,
+				BF080E39F725EBFDA371D305 /* NSString+TDCore.h */,
+				66625A98327CD9EB21C7B360 /* NSString+TDCore.m */,
+				0D8E3431359444CC3094C7E4 /* UIColor+HexColor.h */,
+				7978069EBAF13E2AC1A02280 /* UIColor+HexColor.m */,
+				FC84C6BC287EE8DEC3739886 /* UIColor+TDCore.h */,
+				2311D30110DEB89E7635AC15 /* UIColor+TDCore.m */,
+				48D7FC5495C8468243FBAE34 /* UIRefreshControl+UITableView.h */,
+				5514007FF351B4F98BDD75B1 /* UIRefreshControl+UITableView.m */,
+				40C1C915FAB7DEEC5FB0AC37 /* UIResponder+TDPush.h */,
+				1C3807D78740A0ADEA88BFA2 /* UIResponder+TDPush.m */,
+				48546B54C8E4552B736D887E /* UIScrollView+TDCore.h */,
+				265FBCCF9FBA8D2066198F11 /* UIScrollView+TDCore.m */,
+				F73F49CCC25A06EB19BED6B8 /* UIView+TDCore.h */,
+				7D59FBC5BA25538F50E094CB /* UIView+TDCore.m */,
+				49BDAE710DFE1A2401F4010B /* UIView+TDRecognizer.h */,
+				A91934DE617F77743BE9EA0F /* UIView+TDRecognizer.m */,
+			);
+			name = TDCategory;
+			sourceTree = "<group>";
+		};
+		9AFB97CAFA45D0E91550BF23 /* TDCore */ = {
+			isa = PBXGroup;
+			children = (
+				8900628CA6B46B65D8859F6B /* TDBaseViewController.h */,
+				995CC91AE522725539B7079E /* TDBaseViewController.m */,
+				3ECB45AFE4E0CB51B76F3923 /* TDCore.h */,
+				CB6736A246307684463B6AAE /* TDTableDataSourceDelegate.h */,
+				E12C22CE42D4A643F8E60C79 /* TDTableDataSourceDelegate.m */,
+				B534C9F36D9AF9444F811EEB /* Resources */,
+				E5A72DD8A7EF55385BD56B0B /* Support Files */,
+				7181E18CBCC860F59F8E02E3 /* TDCategory */,
+				439100463B2F74302390D611 /* TDEngineLog */,
+				2464B169B5E01B66B2207202 /* TDEvent */,
+				635D638987564385A13EDEAE /* TDPopup */,
+				3148D609C2EB0C2D623097FF /* TDUtils */,
+				AA6B8C7118C1B8D5298D9A3E /* TableViewDragLoad */,
+			);
+			path = TDCore;
+			sourceTree = "<group>";
+		};
+		AA6B8C7118C1B8D5298D9A3E /* TableViewDragLoad */ = {
+			isa = PBXGroup;
+			children = (
+				0FC1DB7EEBD1790FBBFA5610 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h */,
+				4297FB41435F8E1646F39909 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m */,
+				7F8C11EF085E62A52AB48B3E /* DragTableDragState_ot.h */,
+				10A668D426E525E6C5161D8E /* DragTableFooterView_ot.h */,
+				02B2A075905690C62B28E24B /* DragTableFooterView_ot.m */,
+				2C173C30F36774A1C366EE59 /* DragTableGestureObserver_ot.h */,
+				46A17F012A83C85677DF1FE8 /* DragTableGestureObserver_ot.m */,
+				5419A71907C73663B10A93FE /* DragTableHeaderView_ot.h */,
+				A7008432EB44457974042181 /* DragTableHeaderView_ot.m */,
+				330420B10AF4F007D2AEAC18 /* UIScrollView+DragTableSafeAnimation.h */,
+				FCA2B3CA1CDF6F97D691FCFE /* UIScrollView+DragTableSafeAnimation.m */,
+				C107B38E78FD72A7F45065C7 /* UITableView+DragLoad.h */,
+				DBE418598CA3A005C584006F /* UITableView+DragLoad.m */,
 			);
 			name = TableViewDragLoad;
 			sourceTree = "<group>";
 		};
-		AAB0469277ADD73953BF3E77 /* Pods */ = {
+		B534C9F36D9AF9444F811EEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1DE4C38893CAC87B2955B47F /* TDCore */,
+				B777744EEC0D1543A37E2801 /* blueArrow.png */,
+				9F57CD4D93DA5940DFB0C5D6 /* blueArrow@2x.png */,
+				FCD9A5065FE16518C3076E9C /* loading-icon-rotating@2x.png */,
+				0BA4D93D83D0AF6B7FFB6642 /* loading-icon-static@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C00AC2CC2F541B15CFACC37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB97CAFA45D0E91550BF23 /* TDCore */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BD8FCB8C2160E566FA5B0A75 /* Pods-MotelShare */ = {
+		E4637AA04C0F059A0FB0A6F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B3BBE89BD796ACD1D2115FE /* Pods-MotelShare-acknowledgements.markdown */,
-				0639CD408CB58F11497AA312 /* Pods-MotelShare-acknowledgements.plist */,
-				EE948A86A0DBD491E68432F0 /* Pods-MotelShare-dummy.m */,
-				D1FE2D1F86F35365B84110F3 /* Pods-MotelShare-environment.h */,
-				94C7649EB5BEED958D385B93 /* Pods-MotelShare-resources.sh */,
-				5FAE652E097B70EA0FD488FB /* Pods-MotelShare.debug.xcconfig */,
-				1980C4AF183455247326D4BD /* Pods-MotelShare.release.xcconfig */,
+				F6512E2C3BBA5FB095455C85 /* TDCore.bundle */,
+				EEB1D282096890AD9B1072BF /* libPods-MotelShare.a */,
+				AC3A1FD26A928FE39842754D /* libPods-MotelShare-TDCore.a */,
 			);
-			name = "Pods-MotelShare";
-			path = "Target Support Files/Pods-MotelShare";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BFBAC339A189FAED012CBFF0 /* Support Files */ = {
+		E5A72DD8A7EF55385BD56B0B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37A0D3095D81CAA1B5A1D2C4 /* Pods-MotelShare-TDCore.xcconfig */,
-				AC3F1F648DE0A30E6D6E4936 /* Pods-MotelShare-TDCore-Private.xcconfig */,
-				917C40415EB200310E2E806B /* Pods-MotelShare-TDCore-dummy.m */,
-				50ED6E03C7B8C557BE70D111 /* Pods-MotelShare-TDCore-prefix.pch */,
+				DBA4A31D8EBCA17164513B54 /* Pods-MotelShare-TDCore.xcconfig */,
+				1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */,
+				57A0AF7E01A1E50D1D6DB15D /* Pods-MotelShare-TDCore-dummy.m */,
+				639704B2974135B37EADFE5D /* Pods-MotelShare-TDCore-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-MotelShare-TDCore";
 			sourceTree = "<group>";
 		};
-		DDFAC79F4C64D8392F7016D4 /* iOS */ = {
+		E6D05FC54DBA1C6E026F4635 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D1ED7656FE6F310982532080 /* CoreFoundation.framework */,
-				57DFC17AF4444FBCBA9802B2 /* CoreGraphics.framework */,
-				2AC9AAA3AC90A18DB4916EC2 /* Foundation.framework */,
-				F6359EEB9EBD1695EC75DEA4 /* QuartzCore.framework */,
-				EFEC37D597AB64CE27223CEE /* UIKit.framework */,
+				2BAB2A45D59C225235CBDAE5 /* CoreFoundation.framework */,
+				A6C4FA8E33FAAF714BC72368 /* CoreGraphics.framework */,
+				970F946E40981DCB512D7EE7 /* Foundation.framework */,
+				162DFC4AC6C9B5E390D0A829 /* QuartzCore.framework */,
+				44EDB4040638DC9F803BF86E /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DE7640D15BD8DFADBDC8442D /* Resources */ = {
+		EDCC88E8F30202ED5FB6D923 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9195F89FB2A26E384C9FF33C /* blueArrow.png */,
-				998BA3F5DD0FEFDF7C885BA2 /* blueArrow@2x.png */,
-				5336914BB365703830C87877 /* loading-icon-rotating@2x.png */,
-				5ED60842FF8075AAE26989B9 /* loading-icon-static@2x.png */,
+				E6D05FC54DBA1C6E026F4635 /* iOS */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E45B6D2DBF17023378296B01 /* Targets Support Files */ = {
+		F712A47BCF463E55AF95AD72 /* Pods-MotelShare */ = {
 			isa = PBXGroup;
 			children = (
-				BD8FCB8C2160E566FA5B0A75 /* Pods-MotelShare */,
+				BB449C0C785F819C94D66DE2 /* Pods-MotelShare-acknowledgements.markdown */,
+				B5D83537F19FF3863784A105 /* Pods-MotelShare-acknowledgements.plist */,
+				A561FD3782773E9565C2C4B8 /* Pods-MotelShare-dummy.m */,
+				B6D1D40A2102A3BD7469927D /* Pods-MotelShare-environment.h */,
+				710177C1EB51B605638AF706 /* Pods-MotelShare-resources.sh */,
+				D1B9A0EA7F1A10554568F5D3 /* Pods-MotelShare.debug.xcconfig */,
+				D502A5C77D8D63A84F891625 /* Pods-MotelShare.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FF32AEDA18F0F37BED345E3A /* TDPopup */ = {
-			isa = PBXGroup;
-			children = (
-				C90CB8B2DAA0C9317908D441 /* UIViewController+Popup.h */,
-				502FF4B36631DB11AF30A686 /* UIViewController+Popup.m */,
-			);
-			name = TDPopup;
-			sourceTree = "<group>";
-		};
-		FF9C2EB44703C3735AB84DF3 /* TDEvent */ = {
-			isa = PBXGroup;
-			children = (
-				149D48D3098FC9130CF04CB6 /* UIAlertView+Block.h */,
-				B663C1AEADAA1736C9368E3A /* UIAlertView+Block.m */,
-				45E479D8DB387909DA072627 /* UIButton+TDEvent.h */,
-				8525B5153B3E008F6AB6CDEE /* UIButton+TDEvent.m */,
-				179725FC3A060FC18F3B60CB /* UIView+TDEvent.h */,
-				CA8DA9580E9BB22FE793FB5A /* UIView+TDEvent.m */,
-			);
-			name = TDEvent;
+			name = "Pods-MotelShare";
+			path = "Target Support Files/Pods-MotelShare";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F5A0FD4BE533ED34052E05A2 /* Headers */ = {
+		9354C23B13B392F87DC25AC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86D1AEF0D3272FECEA13E3C /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h in Headers */,
-				0C7E978DCA6B1A4444BCF8F8 /* DragTableDragState_ot.h in Headers */,
-				9643A73B947999E27E56A026 /* DragTableFooterView_ot.h in Headers */,
-				4F2836CFB84EB5389BD1BFAD /* DragTableGestureObserver_ot.h in Headers */,
-				BA367CC19BB13AC1A709C179 /* DragTableHeaderView_ot.h in Headers */,
-				A5030442D740E36BC65D15ED /* NSArray+TDCore.h in Headers */,
-				0A25BCD1F9B441E9125827AB /* NSDate+TDCore.h in Headers */,
-				1ED5D0DED32AAA0D270629A5 /* NSDictionary+TDCore.h in Headers */,
-				49EF9F89D5829277A6647CEE /* NSObject+File.h in Headers */,
-				5481A59EAB9CB176CC92F968 /* NSObject+TDDocument.h in Headers */,
-				5D8E31FDF5BD552A7DA5087D /* NSString+TDCore.h in Headers */,
-				5E470A3842490FBE6625299A /* TDAlert.h in Headers */,
-				06B97D45C4CD1C3E2DEF1FB8 /* TDBaseObject.h in Headers */,
-				42B3B15B1539A622C8265F94 /* TDBaseViewController.h in Headers */,
-				D9E0E3435EFF8EA53E1A3ED5 /* TDCore.h in Headers */,
-				6DBC5EFAE430B8F1AF2BB57A /* TDEngineLog.h in Headers */,
-				87AA6CC5A9D1FCDD23F8662D /* TDLog.h in Headers */,
-				B9589CA7A8B7C0BA82346D8A /* TDMultiDelegate.h in Headers */,
-				C97E8709F1DC98A88400C4CC /* TDPlist.h in Headers */,
-				2C9EA11F5D7B720D8494B741 /* TDTableDataSourceDelegate.h in Headers */,
-				0B1FC4AC7A392E9C400E34F4 /* TDThemeManagement.h in Headers */,
-				3B25F5483FC54A3E56228C38 /* UIAlertView+Block.h in Headers */,
-				497274D9FC19CAECF4E7EAB6 /* UIButton+TDEvent.h in Headers */,
-				A5005B6308C5D62A06862980 /* UIColor+HexColor.h in Headers */,
-				5C90720A54E7F57F32B9A7F6 /* UIColor+TDCore.h in Headers */,
-				A4EACACE2A84B1610B6399C0 /* UIRefreshControl+UITableView.h in Headers */,
-				75231EC65E541F53CE2B7110 /* UIResponder+TDPush.h in Headers */,
-				3CE2B08FE20F659A5EB261B0 /* UIScrollView+DragTableSafeAnimation.h in Headers */,
-				601F1AAA45DFB483EC3A4DD2 /* UIScrollView+TDCore.h in Headers */,
-				6C341161928A9D283B1A7901 /* UITableView+DragLoad.h in Headers */,
-				CBEB16D2ABE3621330D8D5B0 /* UIView+TDCore.h in Headers */,
-				145C41094A75677FD46C1963 /* UIView+TDEvent.h in Headers */,
-				55C1C7446C28007D8CD62AFF /* UIView+TDRecognizer.h in Headers */,
-				160E44B4F5D68E96E52F2121 /* UIViewController+Popup.h in Headers */,
-				DA135F95D24F546E250A6DB3 /* UIViewController+TDLog.h in Headers */,
+				ACC842EE97A11274F70FD2B2 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.h in Headers */,
+				CEFCA7DC067BF778CBC9D391 /* DragTableDragState_ot.h in Headers */,
+				215196B4A0AFDFD49EDCDF0B /* DragTableFooterView_ot.h in Headers */,
+				803B80513622292CA2F8B341 /* DragTableGestureObserver_ot.h in Headers */,
+				D1EB9ACD4E05EAD6F144BAED /* DragTableHeaderView_ot.h in Headers */,
+				7E463E35166AF6AA2925C38D /* NSArray+TDCore.h in Headers */,
+				361AE0C1523015B9D0A371D8 /* NSDate+TDCore.h in Headers */,
+				78F767337C723AB46CD30FC5 /* NSDictionary+TDCore.h in Headers */,
+				1ECC87CA4363DAC8D3CF6F1C /* NSObject+File.h in Headers */,
+				473D9EFF5841701FD526CFE5 /* NSObject+TDDocument.h in Headers */,
+				3A6CA736850EAC57D2E45F30 /* NSString+TDCore.h in Headers */,
+				789979FB45306EF77FDF50DE /* TDAlert.h in Headers */,
+				36AF0C27259A98E87FADFC76 /* TDBaseObject.h in Headers */,
+				E64705E406F45A322C057B90 /* TDBaseViewController.h in Headers */,
+				4E0A9D796B46C197ADA2A1F8 /* TDCore.h in Headers */,
+				8D1405D14DD8CA44BDB72711 /* TDEngineLog.h in Headers */,
+				0592809CB549F85B089B0372 /* TDLog.h in Headers */,
+				FFA860FB071850C57978946C /* TDMultiDelegate.h in Headers */,
+				B5A8B51458CCF1B889797616 /* TDPlist.h in Headers */,
+				528F049FDE0AE04E3B3B148B /* TDTableDataSourceDelegate.h in Headers */,
+				02A0182E5C429176B367EF0B /* TDThemeManagement.h in Headers */,
+				F3C067C55AAE94699EF51C1C /* UIAlertView+Block.h in Headers */,
+				7AC893A170BFFB6BC9DBFD4E /* UIButton+TDEvent.h in Headers */,
+				8A09BAB9C572F1A464773CC0 /* UIColor+HexColor.h in Headers */,
+				F191E7680E1852F25BC0246E /* UIColor+TDCore.h in Headers */,
+				3F55497D1838779DE1058ECA /* UIRefreshControl+UITableView.h in Headers */,
+				B9B226C4FFB6C414F99074A8 /* UIResponder+TDPush.h in Headers */,
+				4185582826181D0C50F0147B /* UIScrollView+DragTableSafeAnimation.h in Headers */,
+				B756DA7D88F3ECE1541DB0F4 /* UIScrollView+TDCore.h in Headers */,
+				F6FD133E515123509050D381 /* UITableView+DragLoad.h in Headers */,
+				BB711606C1AAEDDC7EB17B36 /* UIView+TDCore.h in Headers */,
+				6505A9DF0DFAC0ABB0661F23 /* UIView+TDEvent.h in Headers */,
+				FDF327429CDBB9C6055A71BD /* UIView+TDRecognizer.h in Headers */,
+				13314025FB5D81D384F88B10 /* UIViewController+Popup.h in Headers */,
+				BB63FEA4EB2769230A5C1284 /* UIViewController+TDLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		55187682204905B20251E5FD /* Pods-MotelShare-TDCore */ = {
+		271178FF703E8F4EE32009B3 /* Pods-MotelShare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D4EA55EC422AB9AE930F5AF /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore" */;
+			buildConfigurationList = 21A514D2A7885EFD9F630A65 /* Build configuration list for PBXNativeTarget "Pods-MotelShare" */;
 			buildPhases = (
-				27E3717420077C3B774FDA55 /* Sources */,
-				5FA7BAD9F9120F57D3D22BFF /* Frameworks */,
-				F5A0FD4BE533ED34052E05A2 /* Headers */,
+				92F8B91EE91F1CAEE0157717 /* Sources */,
+				B4471E98C1AF4D49E70C0F22 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88FD10A3EF12F0D2CB277C3E /* PBXTargetDependency */,
-			);
-			name = "Pods-MotelShare-TDCore";
-			productName = "Pods-MotelShare-TDCore";
-			productReference = 984659F7E0CAD226B4A4800A /* libPods-MotelShare-TDCore.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		72A583983D6C5450A4085F22 /* Pods-MotelShare */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DBECB079E2D4EE1B4897267 /* Build configuration list for PBXNativeTarget "Pods-MotelShare" */;
-			buildPhases = (
-				1FE4DBDB397715B837949810 /* Sources */,
-				B8EAF142AA30DE72C2A3D131 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF5A657233FEC3CC128E130D /* PBXTargetDependency */,
+				C986C8536CD535F4DB8C270A /* PBXTargetDependency */,
 			);
 			name = "Pods-MotelShare";
 			productName = "Pods-MotelShare";
-			productReference = CC91D9EBA140DFF31242FEB8 /* libPods-MotelShare.a */;
+			productReference = EEB1D282096890AD9B1072BF /* libPods-MotelShare.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F131D8362B7A43A21F854DE8 /* Pods-MotelShare-TDCore-TDCore */ = {
+		E2556F72A06DAD8942D26627 /* Pods-MotelShare-TDCore-TDCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BF209D382AC11905B79207F /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore-TDCore" */;
+			buildConfigurationList = 06BCC004FFF418D3FA209942 /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore-TDCore" */;
 			buildPhases = (
-				D2338106F992FE011A2B8E61 /* Sources */,
-				39F1E997DF2BA6412BBE40B7 /* Frameworks */,
-				1AA750285887F8FD5C8AD788 /* Resources */,
+				AB8E61448C608D6967305BD1 /* Sources */,
+				8AB21F0F71E71A6A0D4B1C15 /* Frameworks */,
+				491168333E51B0D677768E31 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -543,99 +525,117 @@
 			);
 			name = "Pods-MotelShare-TDCore-TDCore";
 			productName = "Pods-MotelShare-TDCore-TDCore";
-			productReference = 4923D4813FF1C46446F55D1E /* TDCore.bundle */;
+			productReference = F6512E2C3BBA5FB095455C85 /* TDCore.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		F4E7D2A58C93A219BD5B4C79 /* Pods-MotelShare-TDCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFF00E98BB0F1505C417700 /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore" */;
+			buildPhases = (
+				8915D2E8C1CDD074D139C361 /* Sources */,
+				6CDA221A196A90F29A359AC3 /* Frameworks */,
+				9354C23B13B392F87DC25AC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229E15F299FF7866E78DEEA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MotelShare-TDCore";
+			productName = "Pods-MotelShare-TDCore";
+			productReference = AC3A1FD26A928FE39842754D /* libPods-MotelShare-TDCore.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E2926BCFFFCBD8F5B66C534E /* Project object */ = {
+		2A56B6756CDD6B38DF45E85C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 665DE0F1193C8A94D113AC6F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 80A85545C56ADC85621775D0 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 03F5522665C802E22914C502;
-			productRefGroup = 836E9AC56EDE3796E9C7D6E5 /* Products */;
+			mainGroup = 046E247616AC8CA905ACC086;
+			productRefGroup = E4637AA04C0F059A0FB0A6F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72A583983D6C5450A4085F22 /* Pods-MotelShare */,
-				55187682204905B20251E5FD /* Pods-MotelShare-TDCore */,
-				F131D8362B7A43A21F854DE8 /* Pods-MotelShare-TDCore-TDCore */,
+				271178FF703E8F4EE32009B3 /* Pods-MotelShare */,
+				F4E7D2A58C93A219BD5B4C79 /* Pods-MotelShare-TDCore */,
+				E2556F72A06DAD8942D26627 /* Pods-MotelShare-TDCore-TDCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1AA750285887F8FD5C8AD788 /* Resources */ = {
+		491168333E51B0D677768E31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D94DBD769A3482353247F90 /* blueArrow.png in Resources */,
-				2CD653DEAE3B083810AD1037 /* blueArrow@2x.png in Resources */,
-				5D1276C5F45BB4D4A6D0BA03 /* loading-icon-rotating@2x.png in Resources */,
-				CCEDEE51EF20FC0500F2CA28 /* loading-icon-static@2x.png in Resources */,
+				31BC0ACE239A03F81A8DFCF8 /* blueArrow.png in Resources */,
+				FE28FFE03DF83A55D7191BEC /* blueArrow@2x.png in Resources */,
+				C5E5D6C33A3D95069A87394A /* loading-icon-rotating@2x.png in Resources */,
+				632F3E0708779437B45A6760 /* loading-icon-static@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FE4DBDB397715B837949810 /* Sources */ = {
+		8915D2E8C1CDD074D139C361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788582F0B1511ED64819685A /* Pods-MotelShare-dummy.m in Sources */,
+				B508A484297304E1A5C0D355 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m in Sources */,
+				5B910DCB33BFB979E5D2357F /* DragTableFooterView_ot.m in Sources */,
+				83B64905DC7BDA450FCAD7F6 /* DragTableGestureObserver_ot.m in Sources */,
+				7BCB83541316EA425B180144 /* DragTableHeaderView_ot.m in Sources */,
+				EAA268047B924EE5C81F04E4 /* NSArray+TDCore.m in Sources */,
+				F9A4D3BD33BEFFA49B81431D /* NSDate+TDCore.m in Sources */,
+				E90A6AFE0A21C50478B47717 /* NSDictionary+TDCore.m in Sources */,
+				B3B6C36351AE16DA2CE8C28F /* NSObject+File.m in Sources */,
+				B79A2360C03195E5DDDC90AE /* NSObject+TDDocument.m in Sources */,
+				61DA5A8A84CDA7A3C26C17FD /* NSString+TDCore.m in Sources */,
+				60F9A28322F8768D54007F14 /* Pods-MotelShare-TDCore-dummy.m in Sources */,
+				40E49B39EED5BDD061092F58 /* TDAlert.m in Sources */,
+				2C44E08F96B48D6622730995 /* TDBaseObject.m in Sources */,
+				EE97C00F410EDB3B45E86E93 /* TDBaseViewController.m in Sources */,
+				396C1B2972EC50015BBAF20A /* TDMultiDelegate.m in Sources */,
+				32875ED1D4514275CDE74C15 /* TDPlist.m in Sources */,
+				4734373000B8DABA64A96942 /* TDTableDataSourceDelegate.m in Sources */,
+				75B5DCBAB1E819AABC5BCA4B /* TDThemeManagement.m in Sources */,
+				020A1E803EEED9A88C4DFEEB /* UIAlertView+Block.m in Sources */,
+				8DE1DD407C8E7E03329536C2 /* UIButton+TDEvent.m in Sources */,
+				80FEDBC832BE94B0BDF077D4 /* UIColor+HexColor.m in Sources */,
+				87DF57581EA3E33278C7C281 /* UIColor+TDCore.m in Sources */,
+				9875D53BAFF9DBBA766116CF /* UIRefreshControl+UITableView.m in Sources */,
+				1DF2B99E551B00FD3E66B432 /* UIResponder+TDPush.m in Sources */,
+				7924FB108CF41434A387317C /* UIScrollView+DragTableSafeAnimation.m in Sources */,
+				A205CF53D9FE0BA55035D274 /* UIScrollView+TDCore.m in Sources */,
+				AE1CC002513D48FCE56851EB /* UITableView+DragLoad.m in Sources */,
+				80CA57300CF2E8248196E3FB /* UIView+TDCore.m in Sources */,
+				569F8DE17DD442BD5E17FA2E /* UIView+TDEvent.m in Sources */,
+				50CEAE0861DA616C4DDB47C5 /* UIView+TDRecognizer.m in Sources */,
+				B563C573D11529D34E1E81FB /* UIViewController+Popup.m in Sources */,
+				9ADD97624083DFB5939651BF /* UIViewController+TDLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27E3717420077C3B774FDA55 /* Sources */ = {
+		92F8B91EE91F1CAEE0157717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3C650122E36DB99196A5E1 /* ComOpenThreadOTScreenshotHelperSwizzleHelper.m in Sources */,
-				E1481FFE32022CDCFA73003B /* DragTableFooterView_ot.m in Sources */,
-				190883DF0B092B604A496A66 /* DragTableGestureObserver_ot.m in Sources */,
-				20EF24D45D013C5D08C8EF95 /* DragTableHeaderView_ot.m in Sources */,
-				AF373FF0AEFC7CB793819293 /* NSArray+TDCore.m in Sources */,
-				0994A89D649D8020AD8D9054 /* NSDate+TDCore.m in Sources */,
-				B4AEF4E2AB28174B24906AD1 /* NSDictionary+TDCore.m in Sources */,
-				90DF7FE7C5BE294C10AA558E /* NSObject+File.m in Sources */,
-				AAEB5E166FB0DE22CBC2F6F3 /* NSObject+TDDocument.m in Sources */,
-				8465FE093353594F575A81E9 /* NSString+TDCore.m in Sources */,
-				55AEB85EEC9CD4C00C78BFBB /* Pods-MotelShare-TDCore-dummy.m in Sources */,
-				30E71DFF8042115AD14D14AF /* TDAlert.m in Sources */,
-				4F40B921489482758A1E89CF /* TDBaseObject.m in Sources */,
-				A1FB25AAF69E4563A0A0E8C1 /* TDBaseViewController.m in Sources */,
-				1DEE5DF17A51FE3C4D03DE0E /* TDMultiDelegate.m in Sources */,
-				4379F868D57911900AFE9223 /* TDPlist.m in Sources */,
-				057C6B767719ACB6CA69D369 /* TDTableDataSourceDelegate.m in Sources */,
-				4EEE3BB0A9A4BC2976FAF882 /* TDThemeManagement.m in Sources */,
-				24567AE814DCFF6FDA2A2ED2 /* UIAlertView+Block.m in Sources */,
-				934BC4C1552702B27EA034C4 /* UIButton+TDEvent.m in Sources */,
-				80B1C888275BEA836ACEA7EA /* UIColor+HexColor.m in Sources */,
-				FEBFD76185CB65A2E139A33C /* UIColor+TDCore.m in Sources */,
-				6F2043FD03BEE5A922CE7A49 /* UIRefreshControl+UITableView.m in Sources */,
-				D5BE2D62F355F7F19A6DD8B3 /* UIResponder+TDPush.m in Sources */,
-				9DFEA94AD704B17A2D24E451 /* UIScrollView+DragTableSafeAnimation.m in Sources */,
-				38A8C8923999E8290B0724BA /* UIScrollView+TDCore.m in Sources */,
-				F49BE7F61DB766506D1B547F /* UITableView+DragLoad.m in Sources */,
-				8A82EA01B8E1A4E438298B66 /* UIView+TDCore.m in Sources */,
-				FD4EEC0FE6C64E900AC1B756 /* UIView+TDEvent.m in Sources */,
-				B6BCC4D5B9FBD9B73C2BC20D /* UIView+TDRecognizer.m in Sources */,
-				64C693BF2A5190691086F796 /* UIViewController+Popup.m in Sources */,
-				04349FA4D508FC10664FBD27 /* UIViewController+TDLog.m in Sources */,
+				63B7AA314225FE50210D4A76 /* Pods-MotelShare-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2338106F992FE011A2B8E61 /* Sources */ = {
+		AB8E61448C608D6967305BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -645,90 +645,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88FD10A3EF12F0D2CB277C3E /* PBXTargetDependency */ = {
+		229E15F299FF7866E78DEEA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MotelShare-TDCore-TDCore";
-			target = F131D8362B7A43A21F854DE8 /* Pods-MotelShare-TDCore-TDCore */;
-			targetProxy = E2FE0889C6E74CAD13729DEB /* PBXContainerItemProxy */;
+			target = E2556F72A06DAD8942D26627 /* Pods-MotelShare-TDCore-TDCore */;
+			targetProxy = 6617784B60C338C51C901652 /* PBXContainerItemProxy */;
 		};
-		AF5A657233FEC3CC128E130D /* PBXTargetDependency */ = {
+		C986C8536CD535F4DB8C270A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MotelShare-TDCore";
-			target = 55187682204905B20251E5FD /* Pods-MotelShare-TDCore */;
-			targetProxy = 3D8DAF24306DDFA98CEFF3C0 /* PBXContainerItemProxy */;
+			target = F4E7D2A58C93A219BD5B4C79 /* Pods-MotelShare-TDCore */;
+			targetProxy = 956373D9E4F7A58441D32D95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5C2243D559079C51E8A45DB8 /* Release */ = {
+		09EDD45D78001448D994A522 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		65C65FEA870CB45FE129B59E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1980C4AF183455247326D4BD /* Pods-MotelShare.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6F9271F764F029CB18DF78FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3F1F648DE0A30E6D6E4936 /* Pods-MotelShare-TDCore-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MotelShare-TDCore/Pods-MotelShare-TDCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7B595871AF4B8267058172E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FAE652E097B70EA0FD488FB /* Pods-MotelShare.debug.xcconfig */;
+			baseConfigurationReference = D1B9A0EA7F1A10554568F5D3 /* Pods-MotelShare.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -742,34 +676,7 @@
 			};
 			name = Debug;
 		};
-		C5A7377778D417E3FAB489C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TDCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		EF5ACCE5540A7AC2FA808F93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3F1F648DE0A30E6D6E4936 /* Pods-MotelShare-TDCore-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MotelShare-TDCore/Pods-MotelShare-TDCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FEF3506895E053BCBE6FFAA6 /* Debug */ = {
+		3DCC26F764F60841AD9CC388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -808,8 +715,103 @@
 			};
 			name = Debug;
 		};
-		FF3D6A3FD17CFBE38296D3E7 /* Debug */ = {
+		5492E19276FAB8EA0B6FADEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TDCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5C2D51D3BC63738AB3F2B49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D502A5C77D8D63A84F891625 /* Pods-MotelShare.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C86A04096F83CC777F9A499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MotelShare-TDCore/Pods-MotelShare-TDCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F07F2DE312822A5FCFA7046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2702F69EDC518EC9F4CA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MotelShare-TDCore/Pods-MotelShare-TDCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E9C892BC4C79D0D0745FAB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F856A7E074846A45A4D5F8B /* Pods-MotelShare-TDCore-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = TDCore;
@@ -822,43 +824,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BF209D382AC11905B79207F /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore-TDCore" */ = {
+		06BCC004FFF418D3FA209942 /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore-TDCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3D6A3FD17CFBE38296D3E7 /* Debug */,
-				C5A7377778D417E3FAB489C5 /* Release */,
+				E9C892BC4C79D0D0745FAB8A /* Debug */,
+				5492E19276FAB8EA0B6FADEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DBECB079E2D4EE1B4897267 /* Build configuration list for PBXNativeTarget "Pods-MotelShare" */ = {
+		21A514D2A7885EFD9F630A65 /* Build configuration list for PBXNativeTarget "Pods-MotelShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B595871AF4B8267058172E1 /* Debug */,
-				65C65FEA870CB45FE129B59E /* Release */,
+				09EDD45D78001448D994A522 /* Debug */,
+				5C2D51D3BC63738AB3F2B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		665DE0F1193C8A94D113AC6F /* Build configuration list for PBXProject "Pods" */ = {
+		4CFF00E98BB0F1505C417700 /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEF3506895E053BCBE6FFAA6 /* Debug */,
-				5C2243D559079C51E8A45DB8 /* Release */,
+				6C86A04096F83CC777F9A499 /* Debug */,
+				AA2702F69EDC518EC9F4CA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D4EA55EC422AB9AE930F5AF /* Build configuration list for PBXNativeTarget "Pods-MotelShare-TDCore" */ = {
+		80A85545C56ADC85621775D0 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF5ACCE5540A7AC2FA808F93 /* Debug */,
-				6F9271F764F029CB18DF78FE /* Release */,
+				3DCC26F764F60841AD9CC388 /* Debug */,
+				8F07F2DE312822A5FCFA7046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E2926BCFFFCBD8F5B66C534E /* Project object */;
+	rootObject = 2A56B6756CDD6B38DF45E85C /* Project object */;
 }

@@ -9,17 +9,29 @@
 #import "MBCRegisterVC.h"
 
 @interface MBCRegisterVC ()
+{
+    
+}
 
 @end
 
 @implementation MBCRegisterVC
 
-- (void)viewDidLoad {
+#pragma mark - View lifecyl
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
+    // Do any additional setup after loading the view.
+    
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
+    
+    // Dispose of any resources that can be recreated.
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -28,6 +40,34 @@
     
     [self td_showNavigationBar:YES];
 }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    
+}
+
+- (void)dealloc
+{
+    
+}
+
+#pragma mark - IBAction
 
 
 @end
