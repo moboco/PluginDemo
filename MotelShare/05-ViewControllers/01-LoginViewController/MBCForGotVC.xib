@@ -17,7 +17,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oxd-7E-EZz">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oxd-7E-EZz" customClass="TPKeyboardAvoidingScrollView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NW6-XS-6oE" userLabel="Content View">
@@ -27,6 +27,7 @@
                                     <rect key="frame" x="20" y="10" width="280" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="dCj-bL-At8"/>
+                                        <constraint firstAttribute="width" constant="280" id="tU5-0W-3Cx"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -48,6 +49,7 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="44" id="STG-yV-eCx"/>
+                                        <constraint firstAttribute="width" constant="280" id="ma2-w2-tdl"/>
                                     </constraints>
                                 </view>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnS-Y8-dvU">
@@ -55,6 +57,7 @@
                                     <color key="backgroundColor" red="1" green="0.1348544431" blue="0.18136901080000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="44" id="HPT-uS-WMW"/>
+                                        <constraint firstAttribute="width" constant="280" id="dy6-3l-1er"/>
                                     </constraints>
                                     <state key="normal" title="Tiếp tục">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -66,15 +69,12 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="fnS-Y8-dvU" firstAttribute="leading" secondItem="NW6-XS-6oE" secondAttribute="leading" constant="20" id="5wM-Lw-XZh"/>
-                                <constraint firstAttribute="trailing" secondItem="Umm-gl-ajD" secondAttribute="trailing" constant="20" id="7AP-5H-9V1"/>
-                                <constraint firstAttribute="trailing" secondItem="qwG-OV-lBC" secondAttribute="trailing" constant="20" id="OrZ-Fx-8it"/>
-                                <constraint firstAttribute="trailing" secondItem="fnS-Y8-dvU" secondAttribute="trailing" constant="20" id="VVw-nJ-H47"/>
-                                <constraint firstItem="Umm-gl-ajD" firstAttribute="top" secondItem="NW6-XS-6oE" secondAttribute="top" constant="10" id="ecN-2c-I2U"/>
-                                <constraint firstItem="Umm-gl-ajD" firstAttribute="leading" secondItem="NW6-XS-6oE" secondAttribute="leading" constant="20" id="lQK-VY-Tpq"/>
-                                <constraint firstItem="fnS-Y8-dvU" firstAttribute="top" secondItem="qwG-OV-lBC" secondAttribute="bottom" constant="20" id="lxj-SN-pLF"/>
-                                <constraint firstItem="qwG-OV-lBC" firstAttribute="top" secondItem="Umm-gl-ajD" secondAttribute="bottom" constant="8" id="oS4-cf-HUE"/>
-                                <constraint firstItem="qwG-OV-lBC" firstAttribute="leading" secondItem="NW6-XS-6oE" secondAttribute="leading" constant="20" id="xrs-F7-i27"/>
+                                <constraint firstAttribute="centerX" secondItem="fnS-Y8-dvU" secondAttribute="centerX" id="3Ij-hA-1Ab"/>
+                                <constraint firstAttribute="centerX" secondItem="qwG-OV-lBC" secondAttribute="centerX" id="75v-wM-uUV"/>
+                                <constraint firstAttribute="centerX" secondItem="Umm-gl-ajD" secondAttribute="centerX" id="DaV-W1-ok9"/>
+                                <constraint firstItem="Umm-gl-ajD" firstAttribute="top" secondItem="NW6-XS-6oE" secondAttribute="top" constant="10" id="Euu-4J-inF"/>
+                                <constraint firstItem="qwG-OV-lBC" firstAttribute="top" secondItem="Umm-gl-ajD" secondAttribute="bottom" constant="8" id="Frv-Ln-aAu"/>
+                                <constraint firstItem="fnS-Y8-dvU" firstAttribute="top" secondItem="qwG-OV-lBC" secondAttribute="bottom" constant="20" id="fhD-hz-qlX"/>
                             </constraints>
                         </view>
                     </subviews>

@@ -10,7 +10,14 @@
 
 @interface MBCRegisterVC ()
 {
+    __weak IBOutlet UITextField *tfEmail;
+    __weak IBOutlet UITextField *tfAccount;
+    __weak IBOutlet UITextField *tfPassword;
+    __weak IBOutlet UITextField *tfConfirmPassword;
     
+    __weak IBOutlet UIImageView *imvAvatar;
+    
+    __weak IBOutlet UIButton *btnRegister;
 }
 
 @end
@@ -23,7 +30,18 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
+    [tfEmail setBackgroundColor:[UIColor clearColor]];
     
+    [tfAccount setBackgroundColor:[UIColor clearColor]];
+    
+    [tfPassword setBackgroundColor:[UIColor clearColor]];
+    
+    [tfConfirmPassword setBackgroundColor:[UIColor clearColor]];
+    
+    CGFloat width = imvAvatar.width;
+    [imvAvatar td_borderWithBorderWidth:1.0 withBoderColor:[UIColor lightGrayColor] withCornerRadius:(width / 2.0f) andWithMasksToBounds:YES];
+    
+    [btnRegister td_borderWithBorderWidth:1.0 withBoderColor:[UIColor clearColor] withCornerRadius:4.0f];
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,6 +86,18 @@
 }
 
 #pragma mark - IBAction
+- (IBAction)clickBtnChooseAvatar:(id)sender
+{
+    TDLOG(@"");
+    
+    
+}
 
+- (IBAction)clickBtnRegister:(id)sender
+{
+    TDLOG(@"");
+    
+    
+}
 
 @end

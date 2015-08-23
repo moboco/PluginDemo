@@ -4,6 +4,7 @@
 target 'MotelShare' do
 
 pod "TDCore"
+pod "TPKeyboardAvoiding"
 
 end
 
